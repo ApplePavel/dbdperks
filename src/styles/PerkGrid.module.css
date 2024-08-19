@@ -1,0 +1,96 @@
+
+.perkitem img {
+  height: 150px;
+  width: auto;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;    
+  -webkit-user-select: none; 
+  -ms-user-select: none;     
+  user-select: none;        
+}
+
+
+
+.perkgrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 40px;
+  position: relative;
+}
+
+.perkitem {
+  position: relative;
+}
+
+.perkTooltip {
+  position: absolute;
+  border-radius: 1px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+
+
+.perkHeader {
+  height: 50px;
+  position: relative; 
+  background-image: url('/purple1.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  padding: 16px 25px 0 16px;
+}
+
+
+.perkHeader::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 15%; 
+  height: 60%; 
+  background-image: url('/scars.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+
+.perkHeader h3{
+  font-weight: 700;
+}
+
+.perkHeader * {
+  margin: 0;
+}
+
+
+
+.perkBottom{
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px 35px 20px 20px;
+  text-align: justify;
+  width: 400px;
+  z-index: 1000;
+  pointer-events: none;
+  
+}
+
+.perkBottom p{
+  margin: 0;
+  margin-bottom: 20px;
+
+}
+
+.perkComment{
+  color: #BFB99C;
+  font-style: italic;
+}
+
+.statusEffect{
+  color: #D3C18B;
+  font-style: italic;
+}
