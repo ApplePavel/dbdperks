@@ -1,6 +1,5 @@
 import React from 'react';
 import Search from '../components/Search';
-// import ImageComparator from '../components/ImageComparator';
 import styles from '../styles/Home.module.css';
 
 const Home = () => {

@@ -485,5 +485,91 @@ export const perksData = [
       
     },
 
+    {
+      id: 16,
+      icon: "hag/devour.png",
+      author: {
+        en: "The Hag",
+        ru: "Ведьма",
+      },
+      name: {
+        en: "Hex: Devour Hope",
+        ru: "Порча: пожирание надежды",
+
+      },
+      falseDescription: {
+        en: "A Hex rooting its power on hope. The false hope of Survivors ignites your hunger.",
+        ru: "Порча, черпающая силу в надежде. Ложная надежда выживших лишь усиливает ваш голод.",
+      },
+      description: {
+        en: "When a Survivor is rescued from a hook at least 24 meters away, Devour Hope receives a token. 2 Tokens: Gain a 3/4/5% Haste status effect, 10 seconds after hooking a Survivor, for a duration of 10 seconds. 3 Tokens: Survivors suffer from the Exposed status effect. 5 Tokens: Grants the ability to kill Survivors by your own hand. The Hex effects persist as long as the related Hex Totem is standing.",
+        ru: "Когда выживший спасён с крюка хотя бы в 24 метрах от вас, навык \"Пожирание надежды\" получает жетон. 2 жетона: Через 10 сек. после того, как вы вешаете выжившего на крюк, вы получаете эффект \"Спешка\" 5% на 10 сек. 3 жетона: Выжившие получают эффект \"Уязвимость\". 5 жетона: Дает возможность убивать выживших своими руками. Порча действует, пока не уничтожен соответствующий тотем.",
+      },
+      statusEffect: ['Exposed', 'Haste'],
+      falseauthorComment: {
+        en: "«If you do nothing, you have their blood on your hands. If you save them, her hunger grows.»",
+        ru: "«Если бездействуешь, ты виноват в их смерти. Но если ты их спасаешь, это лишь еще больше усиливает её голод.»"
+      }
+      
+    },
+
+    {
+      id: 17,
+      icon: "hag/ruin.png",
+      author: {
+        en: "The Hag",
+        ru: "Ведьма",
+      },
+      name: {
+        en: "Hex: Ruin",
+        ru: "Порча: погибель",
+
+      },
+      falseDescription: {
+        en: "A Hex that affects all Survivors' generator repair progress.",
+        ru: "Порча, влияющая на прогресс починки генераторов у всех выживших.",
+      },
+      description: {
+        en: "All generators are affected by Hex: Ruin. While a generator is not being repaired by a Survivor, it will immediately and automatically regress repair progress at 50/75/100% of the normal regression speed. The Hex effects persist as long as the related Hex Totem is standing.",
+        ru: "\"Порча: Погибель\" воздействует на все генераторы. Когда выживший прекращает чинить генератор, прогресс тут же автоматически начинает снижаться со скоростью 50/75/100% от обычной. Порча действует, пока не уничтожен соответствующий тотем.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "«A curse is upon you. It will be your ruin.»",
+        ru: "«На тебе лежит проклятие. Оно приведет к твоей погибели.»"
+      }
+      
+    },
+
+    {
+      id: 18,
+      icon: "hag/seal.png",
+      author: {
+        en: "The Hag",
+        ru: "Ведьма",
+      },
+      name: {
+        en: "Hex: The Third Seal",
+        ru: "Порча: третья печать",
+
+      },
+      falseDescription: {
+        en: "A Hex that hinders one's aura reading ability.",
+        ru: "Порча, препятствующая чтению ауры.",
+      },
+      description: {
+        en: "Hitting a Survivor with a basic attack or a special attack while the Hex Totem is active applies the Blindness status effect. This effect applies to the last 2/3/4 Survivors hit. The Hex effects persist as long as the related Hex Totem is standing.",
+        ru: "При активном тотеме порчи удар по выжившему базовой или особой атакой вызывает эффект \"Слепота\", который распространяется на последних 2/3/4 выживших, попавших под удар. Порча действует пока не уничтожен соответствующий тотем.",
+      },
+      statusEffect: ['Blindness'],
+      falseauthorComment: {
+        en: "«She touched your skin, you bear the witch's mark!»",
+        ru: "«Она дотронулась до тебя, теперь на тебе метка ведьмы!»"
+      }
+      
+    },
+
+
+
   ];
   
