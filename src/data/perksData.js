@@ -2,7 +2,7 @@
 export const perksData = [
     {
       id: 1,
-      icon: "trapper/agitation.png",
+      icon: "killers/trapper/agitation.png",
       author: {
         en: "The Trapper",
         ru: "Охотник",
@@ -30,7 +30,7 @@ export const perksData = [
 
     {
       id: 2,
-      icon: "trapper/brutalstrength.png",
+      icon: "killers/trapper/brutalstrength.png",
       author: {
         en: "The Trapper",
         ru: "Охотник",
@@ -58,7 +58,7 @@ export const perksData = [
 
     {
       id: 3,
-      icon: "trapper/unnervingpresence.png",
+      icon: "killers/trapper/unnervingpresence.png",
       author: {
         en: "The Trapper",
         ru: "Охотник",
@@ -86,7 +86,7 @@ export const perksData = [
 
     {
       id: 4,
-      icon: "wraith/bloodhound.png",
+      icon: "killers/wraith/bloodhound.png",
       author: {
         en: "The Wraith",
         ru: "Призрак",
@@ -114,7 +114,7 @@ export const perksData = [
 
     {
       id: 5,
-      icon: "wraith/predator.png",
+      icon: "killers/wraith/predator.png",
       author: {
         en: "The Wraith",
         ru: "Призрак",
@@ -142,7 +142,7 @@ export const perksData = [
 
     {
       id: 6,
-      icon: "wraith/shadowborn.png",
+      icon: "killers/wraith/shadowborn.png",
       author: {
         en: "The Wraith",
         ru: "Призрак",
@@ -170,7 +170,7 @@ export const perksData = [
 
     {
       id: 7,
-      icon: "hillbilly/Enduring.png",
+      icon: "killers/hillbilly/Enduring.png",
       author: {
         en: "The Hillbilly",
         ru: "Деревенщина",
@@ -198,7 +198,7 @@ export const perksData = [
 
     {
       id: 8,
-      icon: "hillbilly/lightborn.png",
+      icon: "killers/hillbilly/lightborn.png",
       author: {
         en: "The Hillbilly",
         ru: "Деревенщина",
@@ -226,7 +226,7 @@ export const perksData = [
 
     {
       id: 9,
-      icon: "hillbilly/Tinkerer.png",
+      icon: "killers/hillbilly/Tinkerer.png",
       author: {
         en: "The Hillbilly",
         ru: "Деревенщина",
@@ -250,7 +250,7 @@ export const perksData = [
 
     {
       id: 10,
-      icon: "nurse/nursecalling.png",
+      icon: "killers/nurse/nursecalling.png",
       author: {
         en: "The Nurse",
         ru: "Медсестра",
@@ -277,7 +277,7 @@ export const perksData = [
     },
     {
       id: 11,
-      icon: "nurse/stridor.png",
+      icon: "killers/nurse/stridor.png",
       author: {
         en: "The Nurse",
         ru: "Медсестра",
@@ -304,7 +304,7 @@ export const perksData = [
     },
     {
       id: 12,
-      icon: "nurse/thanataphobia.png",
+      icon: "killers/nurse/thanataphobia.png",
       author: {
         en: "The Nurse",
         ru: "Медсестра",
@@ -332,7 +332,7 @@ export const perksData = [
 
     {
       id: 13,
-      icon: "shape/dyinglight.png",
+      icon: "killers/shape/dyinglight.png",
       author: {
         en: "The Shape",
         ru: "Тень",
@@ -356,7 +356,7 @@ export const perksData = [
 
     {
       id: 14,
-      icon: "shape/playwith.png",
+      icon: "killers/shape/playwith.png",
       author: {
         en: "The Shape",
         ru: "Тень",
@@ -380,7 +380,7 @@ export const perksData = [
 
     {
       id: 15,
-      icon: "shape/savethe.png",
+      icon: "killers/shape/savethe.png",
       author: {
         en: "The Shape",
         ru: "Тень",
@@ -404,7 +404,7 @@ export const perksData = [
 
     {
       id: 16,
-      icon: "hag/devour.png",
+      icon: "killers/hag/devour.png",
       author: {
         en: "The Hag",
         ru: "Ведьма",
@@ -432,7 +432,7 @@ export const perksData = [
 
     {
       id: 17,
-      icon: "hag/ruin.png",
+      icon: "killers/hag/ruin.png",
       author: {
         en: "The Hag",
         ru: "Ведьма",
@@ -460,7 +460,7 @@ export const perksData = [
 
     {
       id: 18,
-      icon: "hag/seal.png",
+      icon: "killers/hag/seal.png",
       author: {
         en: "The Hag",
         ru: "Ведьма",
@@ -488,7 +488,7 @@ export const perksData = [
 
     {
       id: 19,
-      icon: "doctor/monitor.png",
+      icon: "killers/doctor/monitor.png",
       author: {
         en: "The Doctor",
         ru: "Доктор",
@@ -516,7 +516,7 @@ export const perksData = [
 
     {
       id: 20,
-      icon: "doctor/overcharge.png",
+      icon: "killers/doctor/overcharge.png",
       author: {
         en: "The Doctor",
         ru: "Доктор",
@@ -544,7 +544,7 @@ export const perksData = [
 
     {
       id: 21,
-      icon: "doctor/overhelming.png",
+      icon: "killers/doctor/overhelming.png",
       author: {
         en: "The Doctor",
         ru: "Доктор",
@@ -572,7 +572,7 @@ export const perksData = [
 
     {
       id: 22,
-      icon: "huntress/beast.png",
+      icon: "killers/huntress/beast.png",
       author: {
         en: "The Huntress",
         ru: "Охотница",
@@ -601,7 +601,7 @@ export const perksData = [
 
     {
       id: 23,
-      icon: "huntress/lullaby.png",
+      icon: "killers/huntress/lullaby.png",
       author: {
         en: "The Huntress",
         ru: "Охотница",
@@ -630,7 +630,7 @@ export const perksData = [
 
     {
       id: 24,
-      icon: "huntress/territorial.png",
+      icon: "killers/huntress/territorial.png",
       author: {
         en: "The Huntress",
         ru: "Охотница",
@@ -658,7 +658,7 @@ export const perksData = [
 
     {
       id: 25,
-      icon: "cannibal/barbeque.png",
+      icon: "killers/cannibal/barbeque.png",
       author: {
         en: "The Cannibal",
         ru: "Каннибал",
@@ -686,7 +686,7 @@ export const perksData = [
 
     {
       id: 26,
-      icon: "cannibal/franklin.png",
+      icon: "killers/cannibal/franklin.png",
       author: {
         en: "The Cannibal",
         ru: "Каннибал",
@@ -714,7 +714,7 @@ export const perksData = [
 
     {
       id: 27,
-      icon: "cannibal/knock.png",
+      icon: "killers/cannibal/knock.png",
       author: {
         en: "The Cannibal",
         ru: "Каннибал",
@@ -743,7 +743,7 @@ export const perksData = [
 
     {
       id: 28,
-      icon: "nightmare/blood.png",
+      icon: "killers/nightmare/blood.png",
       author: {
         en: "The Nightmare",
         ru: "Кошмар",
@@ -771,7 +771,7 @@ export const perksData = [
 
     {
       id: 29,
-      icon: "nightmare/fire.png",
+      icon: "killers/nightmare/fire.png",
       author: {
         en: "The Nightmare",
         ru: "Кошмар",
@@ -799,7 +799,7 @@ export const perksData = [
 
     {
       id: 30,
-      icon: "nightmare/remember.png",
+      icon: "killers/nightmare/remember.png",
       author: {
         en: "The Nightmare",
         ru: "Кошмар",
@@ -828,7 +828,7 @@ export const perksData = [
 
     {
       id: 31,
-      icon: "pig/make.png",
+      icon: "killers/pig/make.png",
       author: {
         en: "The Pig",
         ru: "Свинья",
@@ -856,7 +856,7 @@ export const perksData = [
 
     {
       id: 32,
-      icon: "pig/scourge.png",
+      icon: "killers/pig/scourge.png",
       author: {
         en: "The Pig",
         ru: "Свинья",
@@ -884,7 +884,7 @@ export const perksData = [
 
     {
       id: 33,
-      icon: "pig/surveillance.png",
+      icon: "killers/pig/surveillance.png",
       author: {
         en: "The Pig",
         ru: "Свинья",
@@ -912,7 +912,7 @@ export const perksData = [
 
     {
       id: 34,
-      icon: "clown/bamboozle.png",
+      icon: "killers/clown/bamboozle.png",
       author: {
         en: "The Clown",
         ru: "Клоун",
@@ -940,7 +940,7 @@ export const perksData = [
 
     {
       id: 35,
-      icon: "clown/coulrophobia.png",
+      icon: "killers/clown/coulrophobia.png",
       author: {
         en: "The Clown",
         ru: "Клоун",
@@ -968,7 +968,7 @@ export const perksData = [
 
     {
       id: 36,
-      icon: "clown/pop.png",
+      icon: "killers/clown/pop.png",
       author: {
         en: "The Clown",
         ru: "Клоун",
@@ -997,7 +997,7 @@ export const perksData = [
 
     {
       id: 37,
-      icon: "spirit/fury.png",
+      icon: "killers/spirit/fury.png",
       author: {
         en: "The Spirit",
         ru: "Дух",
@@ -1026,7 +1026,7 @@ export const perksData = [
 
     {
       id: 38,
-      icon: "spirit/haunted.png",
+      icon: "killers/spirit/haunted.png",
       author: {
         en: "The Spirit",
         ru: "Дух",
@@ -1054,7 +1054,7 @@ export const perksData = [
 
     {
       id: 39,
-      icon: "spirit/rancor.png",
+      icon: "killers/spirit/rancor.png",
       author: {
         en: "The Spirit",
         ru: "Дух",
@@ -1082,7 +1082,7 @@ export const perksData = [
 
     {
       id: 40,
-      icon: "legion/discordance.png",
+      icon: "killers/legion/discordance.png",
       author: {
         en: "The Legion",
         ru: "Легион",
@@ -1110,7 +1110,7 @@ export const perksData = [
 
     {
       id: 41,
-      icon: "legion/grit.png",
+      icon: "killers/legion/grit.png",
       author: {
         en: "The Legion",
         ru: "Легион",
@@ -1138,7 +1138,7 @@ export const perksData = [
 
     {
       id: 42,
-      icon: "legion/iron.png",
+      icon: "killers/legion/iron.png",
       author: {
         en: "The Legion",
         ru: "Легион",
@@ -1167,7 +1167,7 @@ export const perksData = [
 
     {
       id: 43,
-      icon: "plague/infectious.png",
+      icon: "killers/plague/infectious.png",
       author: {
         en: "The Plague",
         ru: "Чума",
@@ -1195,7 +1195,7 @@ export const perksData = [
 
     {
       id: 44,
-      icon: "plague/corrupt.png",
+      icon: "killers/plague/corrupt.png",
       author: {
         en: "The Plague",
         ru: "Чума",
@@ -1223,7 +1223,7 @@ export const perksData = [
 
     {
       id: 45,
-      icon: "plague/devotion.png",
+      icon: "killers/plague/devotion.png",
       author: {
         en: "The Plague",
         ru: "Чума",
@@ -1251,7 +1251,7 @@ export const perksData = [
 
     {
       id: 46,
-      icon: "ghost/furtive.png",
+      icon: "killers/ghost/furtive.png",
       author: {
         en: "The Ghost Face",
         ru: "Гоуст Фейс",
@@ -1279,7 +1279,7 @@ export const perksData = [
 
     {
       id: 47,
-      icon: "ghost/ears.png",
+      icon: "killers/ghost/ears.png",
       author: {
         en: "The Ghost Face",
         ru: "Гоуст Фейс",
@@ -1308,7 +1308,7 @@ export const perksData = [
 
     {
       id: 48,
-      icon: "ghost/thrilling.png",
+      icon: "killers/ghost/thrilling.png",
       author: {
         en: "The Ghost Face",
         ru: "Гоуст Фейс",
@@ -1336,7 +1336,7 @@ export const perksData = [
 
     {
       id: 49,
-      icon: "oni/bloodecho.png",
+      icon: "killers/oni/bloodecho.png",
       author: {
         en: "The Oni",
         ru: "Они",
@@ -1364,7 +1364,7 @@ export const perksData = [
 
     {
       id: 50,
-      icon: "oni/nemesis.png",
+      icon: "killers/oni/nemesis.png",
       author: {
         en: "The Oni",
         ru: "Они",
@@ -1392,7 +1392,7 @@ export const perksData = [
 
     {
       id: 51,
-      icon: "oni/zanshin.png",
+      icon: "killers/oni/zanshin.png",
       author: {
         en: "The Oni",
         ru: "Они",
@@ -1420,7 +1420,7 @@ export const perksData = [
 
     {
       id: 52,
-      icon: "deathslinger/dead.png",
+      icon: "killers/deathslinger/dead.png",
       author: {
         en: "The Deathslinger",
         ru: "Охотник",
@@ -1448,7 +1448,7 @@ export const perksData = [
 
     {
       id: 53,
-      icon: "deathslinger/gearhead.png",
+      icon: "killers/deathslinger/gearhead.png",
       author: {
         en: "The Deathslinger",
         ru: "Охотник",
@@ -1476,7 +1476,7 @@ export const perksData = [
 
     {
       id: 54,
-      icon: "deathslinger/retribution.png",
+      icon: "killers/deathslinger/retribution.png",
       author: {
         en: "The Deathslinger",
         ru: "Охотник",
@@ -1504,7 +1504,7 @@ export const perksData = [
 
     {
       id: 55,
-      icon: "pyramid/deathbound.png",
+      icon: "killers/pyramid/deathbound.png",
       author: {
         en: "The Executioner",
         ru: "Палач",
@@ -1531,7 +1531,7 @@ export const perksData = [
 
     {
       id: 56,
-      icon: "pyramid/forced.png",
+      icon: "killers/pyramid/forced.png",
       author: {
         en: "The Executioner",
         ru: "Палач",
@@ -1560,7 +1560,7 @@ export const perksData = [
 
     {
       id: 57,
-      icon: "pyramid/trail.png",
+      icon: "killers/pyramid/trail.png",
       author: {
         en: "The Executioner",
         ru: "Палач",
@@ -1588,7 +1588,7 @@ export const perksData = [
 
     {
       id: 58,
-      icon: "blight/favor.png",
+      icon: "killers/blight/favor.png",
       author: {
         en: "The Blight",
         ru: "Мор",
@@ -1616,7 +1616,7 @@ export const perksData = [
 
     {
       id: 59,
-      icon: "blight/undying.png",
+      icon: "killers/blight/undying.png",
       author: {
         en: "The Blight",
         ru: "Мор",
@@ -1644,7 +1644,7 @@ export const perksData = [
 
     {
       id: 60,
-      icon: "blight/dragon.png",
+      icon: "killers/blight/dragon.png",
       author: {
         en: "The Blight",
         ru: "Мор",
@@ -1673,7 +1673,7 @@ export const perksData = [
 
     {
       id: 61,
-      icon: "twins/coup.png",
+      icon: "killers/twins/coup.png",
       author: {
         en: "The Twins",
         ru: "Близнецы",
@@ -1701,7 +1701,7 @@ export const perksData = [
 
     {
       id: 62,
-      icon: "twins/hoarded.png",
+      icon: "killers/twins/hoarded.png",
       author: {
         en: "The Twins",
         ru: "Близнецы",
@@ -1729,7 +1729,7 @@ export const perksData = [
 
     {
       id: 63,
-      icon: "twins/oppression.png",
+      icon: "killers/twins/oppression.png",
       author: {
         en: "The Twins",
         ru: "Близнецы",
@@ -1757,7 +1757,7 @@ export const perksData = [
 
     {
       id: 64,
-      icon: "trickster/starstruck.png",
+      icon: "killers/trickster/starstruck.png",
       author: {
         en: "The Trickster",
         ru: "Трюкач",
@@ -1785,7 +1785,7 @@ export const perksData = [
 
     {
       id: 65,
-      icon: "trickster/crowd.png",
+      icon: "killers/trickster/crowd.png",
       author: {
         en: "The Trickster",
         ru: "Трюкач",
@@ -1813,7 +1813,7 @@ export const perksData = [
 
     {
       id: 66,
-      icon: "trickster/wayout.png",
+      icon: "killers/trickster/wayout.png",
       author: {
         en: "The Trickster",
         ru: "Трюкач",
@@ -1840,7 +1840,7 @@ export const perksData = [
 
     {
       id: 67,
-      icon: "nemesis/eruption.png",
+      icon: "killers/nemesis/eruption.png",
       author: {
         en: "The Nemesis",
         ru: "Немезис",
@@ -1869,7 +1869,7 @@ export const perksData = [
 
     {
       id: 68,
-      icon: "nemesis/hysteria.png",
+      icon: "killers/nemesis/hysteria.png",
       author: {
         en: "The Nemesis",
         ru: "Немезис",
@@ -1898,7 +1898,7 @@ export const perksData = [
 
     {
       id: 69,
-      icon: "nemesis/lethal.png",
+      icon: "killers/nemesis/lethal.png",
       author: {
         en: "The Nemesis",
         ru: "Немезис",
@@ -1926,7 +1926,7 @@ export const perksData = [
 
     {
       id: 70,
-      icon: "pinhead/plaything.png",
+      icon: "killers/pinhead/plaything.png",
       author: {
         en: "The Pinhead",
         ru: "Сенобит",
@@ -1954,7 +1954,7 @@ export const perksData = [
 
     {
       id: 71,
-      icon: "pinhead/deadlock.png",
+      icon: "killers/pinhead/deadlock.png",
       author: {
         en: "The Pinhead",
         ru: "Сенобит",
@@ -1982,7 +1982,7 @@ export const perksData = [
 
     {
       id: 72,
-      icon: "pinhead/pain.png",
+      icon: "killers/pinhead/pain.png",
       author: {
         en: "The Pinhead",
         ru: "Сенобит",
@@ -2010,7 +2010,7 @@ export const perksData = [
 
     {
       id: 73,
-      icon: "artist/pentimento.png",
+      icon: "killers/artist/pentimento.png",
       author: {
         en: "The Artist",
         ru: "Художница",
@@ -2038,7 +2038,7 @@ export const perksData = [
 
     {
       id: 74,
-      icon: "artist/reson.png",
+      icon: "killers/artist/reson.png",
       author: {
         en: "The Artist",
         ru: "Художница",
@@ -2066,7 +2066,7 @@ export const perksData = [
 
     {
       id: 75,
-      icon: "artist/grim.png",
+      icon: "killers/artist/grim.png",
       author: {
         en: "The Artist",
         ru: "Художница",
@@ -2094,7 +2094,7 @@ export const perksData = [
 
     {
       id: 76,
-      icon: "onryo/merciless.png",
+      icon: "killers/onryo/merciless.png",
       author: {
         en: "The Onryō",
         ru: "Онрё",
@@ -2121,7 +2121,7 @@ export const perksData = [
 
     {
       id: 77,
-      icon: "onryo/brine.png",
+      icon: "killers/onryo/brine.png",
       author: {
         en: "The Onryō",
         ru: "Онрё",
@@ -2149,7 +2149,7 @@ export const perksData = [
 
     {
       id: 78,
-      icon: "onryo/floods.png",
+      icon: "killers/onryo/floods.png",
       author: {
         en: "The Onryō",
         ru: "Онрё",
@@ -2177,7 +2177,7 @@ export const perksData = [
 
     {
       id: 79,
-      icon: "dredge/septic.png",
+      icon: "killers/dredge/septic.png",
       author: {
         en: "The Dredge",
         ru: "Грязь",
@@ -2204,7 +2204,7 @@ export const perksData = [
 
     {
       id: 80,
-      icon: "dredge/revealed.png",
+      icon: "killers/dredge/revealed.png",
       author: {
         en: "The Dredge",
         ru: "Грязь",
@@ -2231,7 +2231,7 @@ export const perksData = [
 
     {
       id: 81,
-      icon: "dredge/dissolation.png",
+      icon: "killers/dredge/dissolation.png",
       author: {
         en: "The Dredge",
         ru: "Грязь",
@@ -2258,7 +2258,7 @@ export const perksData = [
 
     {
       id: 82,
-      icon: "wesker/anatomy.png",
+      icon: "killers/wesker/anatomy.png",
       author: {
         en: "The Mastermind",
         ru: "Кукловод",
@@ -2285,7 +2285,7 @@ export const perksData = [
 
     {
       id: 83,
-      icon: "wesker/awakened.png",
+      icon: "killers/wesker/awakened.png",
       author: {
         en: "The Mastermind",
         ru: "Кукловод",
@@ -2312,7 +2312,7 @@ export const perksData = [
 
     {
       id: 84,
-      icon: "wesker/terminus.png",
+      icon: "killers/wesker/terminus.png",
       author: {
         en: "The Mastermind",
         ru: "Кукловод",
@@ -2339,7 +2339,7 @@ export const perksData = [
     
     {
       id: 85,
-      icon: "knight/nowhere.png",
+      icon: "killers/knight/nowhere.png",
       author: {
         en: "The Knight",
         ru: "Рыцарь",
@@ -2366,7 +2366,7 @@ export const perksData = [
 
     {
       id: 86,
-      icon: "knight/darkness.png",
+      icon: "killers/knight/darkness.png",
       author: {
         en: "The Knight",
         ru: "Рыцарь",
@@ -2393,7 +2393,7 @@ export const perksData = [
 
     {
       id: 87,
-      icon: "knight/hubris.png",
+      icon: "killers/knight/hubris.png",
       author: {
         en: "The Knight",
         ru: "Рыцарь",
@@ -2420,7 +2420,7 @@ export const perksData = [
 
     {
       id: 88,
-      icon: "skull/game.png",
+      icon: "killers/skull/game.png",
       author: {
         en: "The Skull Merchant",
         ru: "Торговка черепами.",
@@ -2447,7 +2447,7 @@ export const perksData = [
 
     {
       id: 89,
-      icon: "skull/leverage.png",
+      icon: "killers/skull/leverage.png",
       author: {
         en: "The Skull Merchant",
         ru: "Торговка черепами.",
@@ -2474,7 +2474,7 @@ export const perksData = [
 
     {
       id: 90,
-      icon: "skull/thawk.png",
+      icon: "killers/skull/thawk.png",
       author: {
         en: "The Skull Merchant",
         ru: "Торговка черепами.",
@@ -2501,7 +2501,7 @@ export const perksData = [
 
     {
       id: 91,
-      icon: "singularity/forced.png",
+      icon: "killers/singularity/forced.png",
       author: {
         en: "The Singularity",
         ru: "Сингулярность",
@@ -2528,7 +2528,7 @@ export const perksData = [
 
     {
       id: 92,
-      icon: "singularity/genetic.png",
+      icon: "killers/singularity/genetic.png",
       author: {
         en: "The Singularity",
         ru: "Сингулярность",
@@ -2555,7 +2555,7 @@ export const perksData = [
 
     {
       id: 93,
-      icon: "singularity/machine.png",
+      icon: "killers/singularity/machine.png",
       author: {
         en: "The Singularity",
         ru: "Сингулярность",
@@ -2582,7 +2582,7 @@ export const perksData = [
 
     {
       id: 94,
-      icon: "xenomorph/ultimate.png",
+      icon: "killers/xenomorph/ultimate.png",
       author: {
         en: "The Xenomorph",
         ru: "Ксеноморф",
@@ -2609,7 +2609,7 @@ export const perksData = [
 
     {
       id: 95,
-      icon: "xenomorph/rapid.png",
+      icon: "killers/xenomorph/rapid.png",
       author: {
         en: "The Xenomorph",
         ru: "Ксеноморф",
@@ -2636,7 +2636,7 @@ export const perksData = [
 
     {
       id: 96,
-      icon: "xenomorph/alien.png",
+      icon: "killers/xenomorph/alien.png",
       author: {
         en: "The Xenomorph",
         ru: "Ксеноморф",
@@ -2663,7 +2663,7 @@ export const perksData = [
 
     {
       id: 97,
-      icon: "good/batteries.png",
+      icon: "killers/good/batteries.png",
       author: {
         en: "The Good Guy",
         ru: "Хороший Парень",
@@ -2690,7 +2690,7 @@ export const perksData = [
 
     {
       id: 98,
-      icon: "good/friends.png",
+      icon: "killers/good/friends.png",
       author: {
         en: "The Good Guy",
         ru: "Хороший Парень",
@@ -2717,7 +2717,7 @@ export const perksData = [
 
     {
       id: 99,
-      icon: "good/two.png",
+      icon: "killers/good/two.png",
       author: {
         en: "The Good Guy",
         ru: "Хороший Парень",
@@ -2744,7 +2744,7 @@ export const perksData = [
 
     {
       id: 100,
-      icon: "Unknown/unbound.png",
+      icon: "killers/Unknown/unbound.png",
       author: {
         en: "The Unknown",
         ru: "Неведомое",
@@ -2771,7 +2771,7 @@ export const perksData = [
 
     {
       id: 101,
-      icon: "Unknown/unforseen.png",
+      icon: "killers/Unknown/unforseen.png",
       author: {
         en: "The Unknown",
         ru: "Неведомое",
@@ -2798,7 +2798,7 @@ export const perksData = [
 
     {
       id: 102,
-      icon: "Unknown/undone.png",
+      icon: "killers/Unknown/undone.png",
       author: {
         en: "The Unknown",
         ru: "Неведомое",
@@ -2825,7 +2825,7 @@ export const perksData = [
 
     {
       id: 103,
-      icon: "vecna/weaveattunement.png",
+      icon: "killers/vecna/weaveattunement.png",
       author: {
         en: "The Lich",
         ru: "Лич",
@@ -2853,7 +2853,7 @@ export const perksData = [
 
     {
       id: 104,
-      icon: "vecna/languidtouch.png",
+      icon: "killers/vecna/languidtouch.png",
       author: {
         en: "The Lich",
         ru: "Лич",
@@ -2880,7 +2880,7 @@ export const perksData = [
 
     {
       id: 105,
-      icon: "vecna/darkarrogance.png",
+      icon: "killers/vecna/darkarrogance.png",
       author: {
         en: "The Lich",
         ru: "Лич",
@@ -2908,7 +2908,7 @@ export const perksData = [
 
     {
       id: 106,
-      icon: "darklord/wretched.png",
+      icon: "killers/darklord/wretched.png",
       author: {
         en: "The Dark Lord",
         ru: "Темный Властелин",
@@ -2935,7 +2935,7 @@ export const perksData = [
 
     {
       id: 107,
-      icon: "darklord/human.png",
+      icon: "killers/darklord/human.png",
       author: {
         en: "The Dark Lord",
         ru: "Темный Властелин",
@@ -2962,7 +2962,7 @@ export const perksData = [
 
     {
       id: 108,
-      icon: "darklord/dominance.png",
+      icon: "killers/darklord/dominance.png",
       author: {
         en: "The Dark Lord",
         ru: "Темный Властелин",
