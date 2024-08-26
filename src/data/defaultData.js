@@ -34,5 +34,13 @@ export const defaultData = {
     Oblivious: {
       en: "Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.",
       ru: "\"Забывчивость\" мешает выжившим слышать или подвергаться действию радиуса террора убийцы."
+    },
+    Broken: {
+      en: "Broken prevents Survivors from being healed.",
+      ru: "\"Ослабление\" не дает выжившим лечиться."
+    },
+    Hindred: {
+      en: "Hindered reduces Survivor movement speed.",
+      ru: "\"Замедление\" снижает скорость передвижения выжившего."
     }
   };
