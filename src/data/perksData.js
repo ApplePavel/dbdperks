@@ -17,7 +17,7 @@ export const perksData = [
         ru: "Вас будоражит желание поскорее повесить вашу добычу. ",
       },
       description: {
-        en: "Increases your speed while transporting bodies by 18 %. While transporting a body, your Terror Radius is increased by 12 metres.",
+        en: "Increases your speed while transporting bodies by 18%. While transporting a body, your Terror Radius is increased by 12 metres.",
         ru: "Увеличивает вашу скорость во время перемещения тел на 18%. Во время транспортировки тела радиус вашего террора увеличивается на 12 м.",
       },
       statusEffect: [''],
@@ -73,7 +73,7 @@ export const perksData = [
         ru: "Одно ваше присутствие вселяет страх.",
       },
       description: {
-        en: "Survivors within your Terror Radius have a 10 % greater chance of triggering Skill Checks when repairing, healing or sabotaging. Triggered Skill Checks' success zones are reduced by 60%.",
+        en: "Survivors within your Terror Radius have a 10% greater chance of triggering Skill Checks when repairing, healing or sabotaging. Triggered Skill Checks' success zones are reduced by 60%.",
         ru: "У выживших, находящихся в пределах вашего радиуса террора, на 10% чаще срабатывает проверка реакции при починке или лечении. Зона успеха при проверке реакции уменьшается на 60%.",
       },
       statusEffect: [''],
@@ -157,8 +157,8 @@ export const perksData = [
         ru: "Вы хорошо видите во мраке ночи.",
       },
       description: {
-        en: "When blinded by any means, Shadowborn grants a 10 % Haste Status Effect for 10 seconds.",
-        ru: "Если вы ослеплены любым способом, то получаете 10 % Спешки на 10 сек.",
+        en: "When blinded by any means, Shadowborn grants a 10% Haste Status Effect for 10 seconds.",
+        ru: "Если вы ослеплены любым способом, то получаете 10% Спешки на 10 сек.",
       },
       statusEffect: ['Haste'],
       falseauthorComment: {
@@ -185,8 +185,8 @@ export const perksData = [
         ru: "Вы не чувствуете боль. ",
       },
       description: {
-        en: "Reduces the duration of Pallet Stuns by 50 %. Enduring has no effect while carrying a Survivor.",
-        ru: "Длительность оглушения досками снижена на 50 %. Не действует во время переноски выживших.",
+        en: "Reduces the duration of Pallet Stuns by 50%. Enduring has no effect while carrying a Survivor.",
+        ru: "Длительность оглушения досками снижена на 50%. Не действует во время переноски выживших.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -214,7 +214,7 @@ export const perksData = [
       },
       description: {
         en: "The Auras of Survivors attempting to blind you with a Flashlight are revealed to you for 10 seconds. Lightborn grants immunity from being blinded by Flashlights, Firecrackers, Flashbangs, or Blast Mines.",
-        ru: "Вы обрели иммунитет к ослеплению фонариками, хлопушками, ослепляющими гранатами и фугасными минами. Ауры выживших, которые пытаются вас ослепить, подсвечиваются вам на 10 секунд.",
+        ru: "Вы обрели иммунитет к ослеплению фонариками, хлопушками, ослепляющими гранатами и фугасными минами. Ауры выживших, которые пытаются вас ослепить, подсвечиваются вам на 10 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -237,8 +237,8 @@ export const perksData = [
 
       },
       description: {
-        en: "When a Generator is repaired to 70 %, you receive a Loud Noise notification and you are granted the Undetectable Status Effect for 16 seconds. Tinkerer can only trigger once per Generator per Trial.",
-        ru: "Когда ремонт генератора доходит до 70%, вы слышите громкий звук и получаете эффект Незаметность на следующие 16 секунд. Этот эффект может сработать только по разу для каждого генератора.",
+        en: "When a Generator is repaired to 70%, you receive a Loud Noise notification and you are granted the Undetectable Status Effect for 16 seconds. Tinkerer can only trigger once per Generator per Trial.",
+        ru: "Когда ремонт генератора доходит до 70%, вы слышите громкий звук и получаете эффект Незаметность на следующие 16 сек. Этот эффект может сработать только по разу для каждого генератора.",
       },
       statusEffect: ['Undetectable'],
       falseauthorComment: {
@@ -504,7 +504,7 @@ export const perksData = [
       },
       description: {
         en: "While in a chase, your Terror Radius is increased by 8 meters. Otherwise, your Terror Radius is decreased by 8 meters.",
-        ru: "Во время погони ваш радиус террора увеличивается на 8 метров. В обычном состоянии ваш радиус террора уменьшается на 8 метров.",
+        ru: "Во время погони ваш радиус террора увеличивается на 8 м. В обычном состоянии ваш радиус террора уменьшается на 8 м.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -646,7 +646,7 @@ export const perksData = [
       },
       description: {
         en: "Survivors' auras are revealed to you for 6 seconds when they enter the basement and you are more than 24 meters away from the basement entrance. Territorial Imperative can only be triggered once every 45 seconds.",
-        ru: "Ауры выживших раскрываются вам на 6 секунд, когда те спускаются в подвал, а вы находитесь более чем в 24-х метрах от него. Территориальный Императив может сработать лишь раз в 45 секунд.",
+        ru: "Ауры выживших раскрываются вам на 6 сек., когда те спускаются в подвал, а вы находитесь более чем в 24-х метрах от него. Территориальный Императив может сработать лишь раз в 45 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -674,7 +674,7 @@ export const perksData = [
       },
       description: {
         en: "After hooking a Survivor, all other Survivors' auras are revealed to you for 5 seconds when they are further than 40 meters from the hook.",
-        ru: "После того, как вы вешаете выжившего на крюк, ауры остальных выживших открываются вам на 5 сек., если они находятся более чем в 40 метров от крюка.",
+        ru: "После того, как вы вешаете выжившего на крюк, ауры остальных выживших открываются вам на 5 сек., если они находятся более чем в 40 м. от крюка.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -702,7 +702,7 @@ export const perksData = [
       },
       description: {
         en: "Your basic attacks make Survivors drop their item on impact. While on the ground, it takes up to 90 seconds for the item to lose all of its charges if it is not picked up. Reveal items on the ground within 32 meters with a white aura. The Aura will slowly fade to red until the Item is empty of charges.",
-        ru: "Ваши базовые атаки заставляют попавших под удар выживших ронять предметы. Лежащий на земле предмет теряет все заряды за 90 секунд, если его не подобрать. Ауры выпавших предметов в радиусе 32 м подсвечиваются белым. Ауры предметов постепенно краснеют, пока их заряды не истощатся.",
+        ru: "Ваши базовые атаки заставляют попавших под удар выживших ронять предметы. Лежащий на земле предмет теряет все заряды за 90 сек., если его не подобрать. Ауры выпавших предметов в радиусе 32 м подсвечиваются белым. Ауры предметов постепенно краснеют, пока их заряды не истощатся.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -730,7 +730,7 @@ export const perksData = [
       },
       description: {
         en: "Survivors put into the dying state by your basic attacks are not revealed to other Survivors when they are standing outside of a 16 meter range. Survivors put into the dying state by your basic attacks crawl 50% slower for 15 seconds, and their recovery speed is reduced by 25%. During this time, Survivors are affected by the Blindness status effect.",
-        ru: "Ауры умирающих выживших, которых вы сразили базовыми атаками, не видны их союзникам, пока те находятся более чем в 16 метров от них. Умирающие выжившие, которых вы сразили базовыми атаками, ползают на 50% медленнее в течение 15 сек., а их скорость восстановления снижается на 25%. В это время на выживших действует эффект \"Слепота\".",
+        ru: "Ауры умирающих выживших, которых вы сразили базовыми атаками, не видны их союзникам, пока те находятся более чем в 16 м. от них. Умирающие выжившие, которых вы сразили базовыми атаками, ползают на 50% медленнее в течение 15 сек., а их скорость восстановления снижается на 25%. В это время на выживших действует эффект \"Слепота\".",
       },
       statusEffect: ['Blindness'],
       falseauthorComment: {
@@ -759,7 +759,7 @@ export const perksData = [
       },
       description: {
         en: "As soon as an exit gate is opened, Blood Warden is activated. The auras of any Survivors located within Exit areas are revealed to you. Once per match, hooking a Survivor while Blood Warden is active calls upon The Entity to block both Exits for all Survivors for 60 seconds.",
-        ru: "Как только открываются ворота, активируется навык \"Кровавый смотритель\". Вы будете видеть ауры выживших, которые находятся рядом с выходом. Раз в матч, когда хотя бы одни ворота открыты, повесив выжившего на крюк, вы призываете Сущность заблокировать все выходы для выживших на 60 секунд.",
+        ru: "Как только открываются ворота, активируется навык \"Кровавый смотритель\". Вы будете видеть ауры выживших, которые находятся рядом с выходом. Раз в матч, когда хотя бы одни ворота открыты, повесив выжившего на крюк, вы призываете Сущность заблокировать все выходы для выживших на 60 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -815,7 +815,7 @@ export const perksData = [
       },
       description: {
         en: "You become obsessed with one Survivor. Each time your Obsession loses a health state, gain 1 token, up to 4. Each token increases the opening time of the exit gates by 6 seconds up to a maximum of 24 additional seconds. The Obsession is not affected by Remember Me.",
-        ru: "Вы становитесь одержимы одним выжившим. Каждый раз, когда состояние здоровья такого выжившего ухудшается, вы получаете жетон (не более 4). С каждым жетоном время, необходимое для открытия ворот, увеличивается на 6 сек., вплоть до 24 секунд максимум. Навык \"Помни меня\" не влияет на объект одержимости.",
+        ru: "Вы становитесь одержимы одним выжившим. Каждый раз, когда состояние здоровья такого выжившего ухудшается, вы получаете жетон (не более 4). С каждым жетоном время, необходимое для открытия ворот, увеличивается на 6 сек., вплоть до 24 сек. максимум. Навык \"Помни меня\" не влияет на объект одержимости.",
       },
       statusEffect: ['Obsessed'],
       falseauthorComment: {
@@ -844,7 +844,7 @@ export const perksData = [
       },
       description: {
         en: "When a Survivor rescues another from a hook at least 32 meters away from you, Make your Choice causes the Survivor to scream and applies the Exposed status effect to them for 60 seconds. Make your Choice has a cooldown of 60 seconds.",
-        ru: "Когда выживший спасает своего союзника с крюка на расстоянии хотя бы 32 метров от вас, срабатывает \"Выбор за тобой\": спасатель вскрикивает, и на него накладывается эффект \"Уязвимость\" на 60 секунд. \"Выбор за тобой\" может снова сработать через 60 сек.",
+        ru: "Когда выживший спасает своего союзника с крюка на расстоянии хотя бы 32 м. от вас, срабатывает \"Выбор за тобой\": спасатель вскрикивает, и на него накладывается эффект \"Уязвимость\" на 60 сек. \"Выбор за тобой\" может снова сработать через 60 сек.",
       },
       statusEffect: ['Exposed'],
       falseauthorComment: {
@@ -872,7 +872,7 @@ export const perksData = [
       },
       description: {
         en: "At the start of the trial, 4 random hooks are twinsd into scourge hooks. You see their auras in white. Gain a notification when a Survivor begins sabotaging a hook. While carrying a Survivor, see the aura of any Survivor within 12 meters of a scourge hook",
-        ru: "В начале матча 4 случайных крюка заменяются на секущие, и вы видите их белые ауры. Вы получаете уведомление, когда выживший начинает ломать крюк. Когда вы несете выжившего, вам будет показана аура любого выжившего в радиусе 10 метров от секущего крюка.",
+        ru: "В начале матча 4 случайных крюка заменяются на секущие, и вы видите их белые ауры. Вы получаете уведомление, когда выживший начинает ломать крюк. Когда вы несете выжившего, вам будет показана аура любого выжившего в радиусе 10 м. от секущего крюка.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -900,7 +900,7 @@ export const perksData = [
       },
       description: {
         en: "Any regressing generator will be highlighted by a white aura. If the regression is interrupted on a generator, it will be highlighted by a yellow aura for 16 seconds. Noises created by generator repairs are audible at an additional 8 meters.",
-        ru: "Любой сломанный генератор подсвечивается белым. Если поломка исправлена, генератор подсвечивается желтым на 16 секунд. Шум от ремонта генераторов слышен на большем расстоянии (+8м).",
+        ru: "Любой сломанный генератор подсвечивается белым. Если поломка исправлена, генератор подсвечивается желтым на 16 сек. Шум от ремонта генераторов слышен на большем расстоянии (+8м).",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -928,7 +928,7 @@ export const perksData = [
       },
       description: {
         en: "Your vault speed is 15% faster. Performing a vault action calls upon The Entity to block that vault location to Survivors for 16 seconds. Only 1 vault location may be blocked in this way at any time. Does not affect pallets.",
-        ru: "Вы перелезаете через препятствия на 15% быстрее. После преодоления препятствия Сущность заблокирует его на 16 секунд. Навык может заблокировать только одно препятствие за раз. Препятствие заблокировано только для Выживших. Не действует на доски.",
+        ru: "Вы перелезаете через препятствия на 15% быстрее. После преодоления препятствия Сущность заблокирует его на 16 сек. Навык может заблокировать только одно препятствие за раз. Препятствие заблокировано только для Выживших. Не действует на доски.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -984,7 +984,7 @@ export const perksData = [
       },
       description: {
         en: "After hooking a Survivor, the next generator you damage instantly loses 20% of its current progress. Normal generator regression applies after the Damage Generator action. Pop Goes the Weasel is active for 45 seconds after the Survivor is hooked.",
-        ru: "После того, как вы повесили выжившего, следующий сломанный вами генератор сразу лишится 20% текущего прогресса. После повреждения генератора прогресс будет уменьшаться с обычной скоростью. \"Чертик из табакерки\" действует в течение 45 секунд после подвешивания выжившего.",
+        ru: "После того, как вы повесили выжившего, следующий сломанный вами генератор сразу лишится 20% текущего прогресса. После повреждения генератора прогресс будет уменьшаться с обычной скоростью. \"Чертик из табакерки\" действует в течение 45 сек. после подвешивания выжившего.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1042,7 +1042,7 @@ export const perksData = [
       },
       description: {
         en: "Two trapped Hex Totems will spawn in the trial. When either one of the two trapped Hex Totems is cleansed by a Survivor, all Survivors suffer from the Exposed status effect for 60 seconds. The remaining trapped Hex Totem immediately becomes a Dull Totem.",
-        ru: "В матче появятся два проклятых тотема. Когда выживший очищает любой из проклятых тотемов, все выжившие начинают страдать от эффекта \"Уязвимость\" в течение 60 секунд. Другой проклятый тотем сразу становится пустышкой.",
+        ru: "В матче появятся два проклятых тотема. Когда выживший очищает любой из проклятых тотемов, все выжившие начинают страдать от эффекта \"Уязвимость\" в течение 60 сек. Другой проклятый тотем сразу становится пустышкой.",
       },
       statusEffect: ['Exposed'],
       falseauthorComment: {
@@ -1070,7 +1070,7 @@ export const perksData = [
       },
       description: {
         en: "You become obsessed with one Survivor. Each time a generator is completed, your Obsession sees your aura for 3 seconds. Each time a generator is completed, all Survivors' locations are revealed to you for 3 seconds. Once the exit gates are powered, the Obsession has the Exposed status effect and you can kill them. The Killer can only be obsessed with one Survivor at a time.",
-        ru: "Вы становитесь одержимы одним Выжившим. Каждый раз после полной починки генератора ваш объект одержимости видит вас на протяжении 3 секунд. Каждый раз после полной починки генератора ауры всех выживших раскрываются вам на 3 сек. Как только на все ворота поступает напряжение, ваш объект одержимости начинает страдать от эффекта \"Уязвимость\" и вы можете убить его своими руками. Убийца может быть одержим только одним выжившим за раз.",
+        ru: "Вы становитесь одержимы одним Выжившим. Каждый раз после полной починки генератора ваш объект одержимости видит вас на протяжении 3 сек. Каждый раз после полной починки генератора ауры всех выживших раскрываются вам на 3 сек. Как только на все ворота поступает напряжение, ваш объект одержимости начинает страдать от эффекта \"Уязвимость\" и вы можете убить его своими руками. Убийца может быть одержим только одним выжившим за раз.",
       },
       statusEffect: ['Exposed'],
       falseauthorComment: {
@@ -1098,7 +1098,7 @@ export const perksData = [
       },
       description: {
         en: "Any generator within a range of 128 meters that is being repaired by two or more Survivors is marked by a yellow aura. When the generator is first highlighted, Discordance triggers a loud noise notification on the generator. After the generator is no longer within range or is no longer being repaired by two or more Survivors, the aura remains for another 4 seconds.",
-        ru: "Любой генератор в радиусе 128 метров, который чинят два или более выживших, будет подсвечен желтой аурой. При первом подсвечивании \"Разлад\" вызывает громкий звук, указывающий на генератор. Если генератор оказывается вне радиуса действия или уже не чинится двумя или более выжившими, аура остается еще на 4 сек.",
+        ru: "Любой генератор в радиусе 128 м., который чинят два или более выживших, будет подсвечен желтой аурой. При первом подсвечивании \"Разлад\" вызывает громкий звук, указывающий на генератор. Если генератор оказывается вне радиуса действия или уже не чинится двумя или более выжившими, аура остается еще на 4 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1110,7 +1110,7 @@ export const perksData = [
 
     {
       id: 41,
-      icon: "killers/legion/grit.png",
+      icon: "killers/legion/iron.png",
       author: {
         en: "The Legion",
         ru: "Легион",
@@ -1125,20 +1125,20 @@ export const perksData = [
         ru: "",
       },
       description: {
-        en: "",
-        ru: "",
+        en: "You open lockers 50% faster. Survivors who exit lockers suffer from the Exposed status effect for 30 seconds and scream, revealing their location for 4 seconds.",
+        ru: "Вы открываете шкафчики на 50% быстрее.",
       },
-      statusEffect: [''],
+      statusEffect: ['Exposed'],
       falseauthorComment: {
-        en: " ",
-        ru: "«»"
+        en: "\“This is no place for cowards.\” -The Legion",
+        ru: "«Трусам здесь не место» — Легион"
       }
       
     },
 
     {
       id: 42,
-      icon: "killers/legion/iron.png",
+      icon: "killers/legion/grit.png",
       author: {
         en: "The Legion",
         ru: "Легион",
@@ -1183,7 +1183,7 @@ export const perksData = [
       },
       description: {
         en: "Any Survivors that are within your Terror Radius while another Survivor is put into the dying state will scream and reveal their location to you for 6 seconds.",
-        ru: "Когда кто-нибудь из выживших оказывается в предсмертном состоянии, все выжившие в радиусе вашего террора кричат и выдают себя на 6 секунд.",
+        ru: "Когда кто-нибудь из выживших оказывается в предсмертном состоянии, все выжившие в радиусе вашего террора кричат и выдают себя на 6 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1211,7 +1211,7 @@ export const perksData = [
       },
       description: {
         en: "3 generators located furthest from you are blocked by The Entity for 80/100/120 seconds at the start of the trial. Survivors cannot repair these generators for the duration. Affected generators are highlighted by a white aura. Corrupt Intervention deactivates when any Survivor enters the dying state.",
-        ru: "В начале испытания Сущность блокирует генераторы (3), которые находятся от вас дальше всего, на 120 секунд. На протяжении этого времени выжившие не могут их чинить. Такие генераторы подсвечиваются белым. Когда любой выживший переходит в предсмертное состояние, \"Вмешательство скверны\" прекращается.",
+        ru: "В начале испытания Сущность блокирует генераторы (3), которые находятся от вас дальше всего, на 120 сек. На протяжении этого времени выжившие не могут их чинить. Такие генераторы подсвечиваются белым. Когда любой выживший переходит в предсмертное состояние, \"Вмешательство скверны\" прекращается.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1239,7 +1239,7 @@ export const perksData = [
       },
       description: {
         en: "You become obsessed with one Survivor. When the Obsession loses a health state, your Terror Radius transfers to the Obsession for 30 seconds, and its radius is set to 32 meters. You are granted the Undetectable status effect for the duration. The Survivor with the transferred Terror Radius is also considered to be \"inside the Terror Radius\" for other purposes. The Killer can only be obsessed with one Survivor at a time.",
-        ru: "Вы становитесь одержимы одним выжившим. Когда объект одержимости теряет уровень здоровья, ваш радиус террора передается ему на 30 секунд и распространяется на 32 м. В течение этого времени на вас действует эффект \"Незаметность\". Выживший, которому передан радиус террора, считается находящимся в пределах радиуса террора убийцы. Одновременно убийца может быть одержим только одной жертвой.",
+        ru: "Вы становитесь одержимы одним выжившим. Когда объект одержимости теряет уровень здоровья, ваш радиус террора передается ему на 30 сек. и распространяется на 32 м. В течение этого времени на вас действует эффект \"Незаметность\". Выживший, которому передан радиус террора, считается находящимся в пределах радиуса террора убийцы. Одновременно убийца может быть одержим только одной жертвой.",
       },
       statusEffect: ['Undetectable'],
       falseauthorComment: {
@@ -1266,8 +1266,8 @@ export const perksData = [
         ru: "Вы прячетесь в тенях, уничтожая жертв одну за другой.",
       },
       description: {
-        en: "You become obsessed with one Survivor. When your Obsession is hooked, gain the Undetectable status effect and a 5 % Haste status effect for 18 seconds. When a Survivor rescues the Obsession from a hook, the rescuer becomes the Obsession. The Killer can only be obsessed with one Survivor at a time.",
-        ru: "Вы становитесь одержимы одним выжившим. Когда объект вашей одержимости оказывается на крюке, получите эффект \"Незаметность\" и 5% \"Спешка\" на 18 секунд. Если выживший снимает объект вашей одержимости с крюка, вы становитесь одержимы спасателем. Одновременно убийца может быть одержим только одним выжившим.",
+        en: "You become obsessed with one Survivor. When your Obsession is hooked, gain the Undetectable status effect and a 5% Haste status effect for 18 seconds. When a Survivor rescues the Obsession from a hook, the rescuer becomes the Obsession. The Killer can only be obsessed with one Survivor at a time.",
+        ru: "Вы становитесь одержимы одним выжившим. Когда объект вашей одержимости оказывается на крюке, получите эффект \"Незаметность\" и 5% \"Спешка\" на 18 сек. Если выживший снимает объект вашей одержимости с крюка, вы становитесь одержимы спасателем. Одновременно убийца может быть одержим только одним выжившим.",
       },
       statusEffect: ['Undetectable', 'Haste'],
       falseauthorComment: {
@@ -1295,7 +1295,7 @@ export const perksData = [
       },
       description: {
         en: "Unlocks potential in one's aura reading ability. Any Survivor performing a rushed action within 48 meters from your location will have their aura revealed for 8 seconds. I'm All Ears can only be triggered once every 30 seconds.",
-        ru: "Разблокирует возможности чтения ауры. Вы увидите ауру любого выжившего, совершающего резкие действия на расстоянии 48 м от вас. Действует 8 сек.\"Чуткий слух\" срабатывает только раз в 30 секунд.",
+        ru: "Разблокирует возможности чтения ауры. Вы увидите ауру любого выжившего, совершающего резкие действия на расстоянии 48 м от вас. Действует 8 сек.\"Чуткий слух\" срабатывает только раз в 30 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1324,7 +1324,7 @@ export const perksData = [
       },
       description: {
         en: "After picking up a Survivor, all Generators not being repaired by Survivors are blocked by The Entity and cannot be repaired for the next 16 seconds. Affected generators are highlighted by a white aura. Thrilling Tremors can only be triggered once every 60 seconds.",
-        ru: "Когда вы подбираете выжившего, Сущность блокирует все генераторы, которые в данный момент не чинят выжившие, и в течение 16 сек. их нельзя будет ремонтировать. Такие генераторы подсвечиваются белым. \"Пугающая тряска\" срабатывает только раз в 16 секунд.",
+        ru: "Когда вы подбираете выжившего, Сущность блокирует все генераторы, которые в данный момент не чинят выжившие, и в течение 16 сек. их нельзя будет ремонтировать. Такие генераторы подсвечиваются белым. \"Пугающая тряска\" срабатывает только раз в 16 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1336,6 +1336,90 @@ export const perksData = [
 
     {
       id: 49,
+      icon: "killers/demogorgon/mindbreaker.png",
+      author: {
+        en: "The Demogorgon",
+        ru: "Демогоргон",
+      },
+      name: {
+        en: "Mind Breaker",
+        ru: "Разрушитель разума",
+      },
+      falseDescription: {
+        en: "Your distressing presence drains and weakens your prey.",
+        ru: "Ваша пугающая близость ослабляет жертву и лишает ее сил.",
+      },
+      description: {
+        en: "While repairing generators, Survivors are afflicted by the Blindness and Exhausted status effect. Any existing Exhausted status effect timers are paused while the Survivor is repairing a generator. After ending the repair action, the Survivor is afflicted by the Blindness and Exhausted status effect for 5 seconds.",
+        ru: "Во время починки генераторов на выживших действуют эффекты \"Слепота\" и \"Усталость\". Все текущие таймеры усталости приостанавливаются на время починки генератора. Завершив починку, выживший снова слепнет и устает на {сек.}.",
+      },
+      statusEffect: ['Blindness', 'Exhausted'],
+      falseauthorComment: {
+        en: "\"The specimen's apparent telepathic ability can evoke feelings of dread and fatigue in nearby individuals.\" -Hawkins National Laboratory",
+        ru: "«Похоже, телепатические способности особи позволяют ей вызывать у людей, оказавшихся поблизости, ощущения ужаса и усталости» — Национальная лаборатория Хоукинса"
+      }
+      
+    },
+
+
+    {
+      id: 50,
+      icon: "killers/demogorgon/surge.png",
+      author: {
+        en: "The Demogorgon",
+        ru: "Демогоргон",
+      },
+      name: {
+        en: "Surge",
+        ru: "Выброс",
+      },
+      falseDescription: {
+        en: "Your eerie presence charges the air and interferes with technology.",
+        ru: "В вашем ужасающем присутствии воздух электризуется, а техника начинает сходить с ума.",
+      },
+      description: {
+        en: "Putting a Survivor into the dying state with a basic attack causes all generators within a 32-meter radius to explode instantly and begin regressing. Generators affected by Surge immediately lose 8% of their progress.",
+        ru: "Если вы доводите выжившего до предсмертного состояния базовой атакой, все генераторы в радиусе 32 м тут же взрываются и начинают портиться. Генераторы, на которые подействовал \"Выброс\", сразу потеряют 8% прогресса их починки.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "\“The creature appears to have some unknown influence over electricity and nearby electronics.\” -Hawkins National Laboratory",
+        ru: "«Существо неведомым образом влияет на электричество и электронику поблизости...» — Национальная лаборатория Хоукинса"
+      }
+      
+    },
+
+
+    {
+      id: 51,
+      icon: "killers/demogorgon/cruel.png",
+      author: {
+        en: "The Demogorgon",
+        ru: "Демогоргон",
+      },
+      name: {
+        en: "Cruel Limits",
+        ru: "Жестокая изоляция",
+      },
+      falseDescription: {
+        en: "Your ties to the otherworldly manifest when your prey attempts to get away.",
+        ru: "Ваша связь с иным миром проявляется, когда жертва пытается сбежать.",
+      },
+      description: {
+        en: "Every time a generator is completed, all windows and vault locations are blocked for all Survivors for the next 30 seconds. You see the aura of the vault locations blocked by Cruel Limits for the duration.",
+        ru: "После каждого завершения ремонта генератора все окна и места для прыжков блокируются для всех выживших на 30 сек. Во время действия навыка вы видите ауру мест для прыжков, заблокированных \"Жестокой изоляцией\".",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "\“The specimen seems to be able to perform some kind of telekinesis that impacts the state of nearby objects, as if they existed in some other form within a dimension alternate to our own.\” -Hawkins National Laboratory",
+        ru: "«Похоже, особь способна с помощью телекинеза влиять на состояние ближайших объектов. Они словно одновременно существуют в ином мире, в отличной от видимой нами форме...» — Национальная лаборатория Хоукинса"
+      }
+      
+    },
+
+
+    {
+      id: 52,
       icon: "killers/oni/bloodecho.png",
       author: {
         en: "The Oni",
@@ -1352,7 +1436,7 @@ export const perksData = [
       },
       description: {
         en: "A Survivor who blinds you or stuns you using a pallet or locker becomes your Obsession. Anytime a new Survivor becomes the Obsession, they are affected by the Oblivious status effect for 60 seconds and their aura is shown to you for 4 seconds. The Killer can only be obsessed with one Survivor at a tim",
-        ru: "Когда выживший попадает на крюк, все остальные раненые выжившие получают эффекты \"Кровотечение\" и \"Усталость\" на 45 сек. Время восстановления \"Отзвука крови\" — 60 секунд.",
+        ru: "Когда выживший попадает на крюк, все остальные раненые выжившие получают эффекты \"Кровотечение\" и \"Усталость\" на 45 сек. Время восстановления \"Отзвука крови\" — 60 сек.",
       },
       statusEffect: ['Exhausted', 'Hemorrhage'],
       falseauthorComment: {
@@ -1363,7 +1447,7 @@ export const perksData = [
     },
 
     {
-      id: 50,
+      id: 53,
       icon: "killers/oni/nemesis.png",
       author: {
         en: "The Oni",
@@ -1380,7 +1464,7 @@ export const perksData = [
       },
       description: {
         en: "A Survivor who blinds you or stuns you using a pallet or locker becomes your Obsession. Anytime a new Survivor becomes the Obsession, they are affected by the Oblivious status effect for 60 seconds and their aura is shown to you for 4 seconds. The Killer can only be obsessed with one Survivor at a time.",
-        ru: "Если выживший ослепляет вас или оглушает с помощью доски или шкафчика, он становится объектом вашей одержимости. Становясь объектом одержимости, любой выживший получает статус \"Забывчивость\" на 60 секунд. Вы видите его ауру в течение 4 сек. Одновременно убийца может быть одержим только одним выжившим.",
+        ru: "Если выживший ослепляет вас или оглушает с помощью доски или шкафчика, он становится объектом вашей одержимости. Становясь объектом одержимости, любой выживший получает статус \"Забывчивость\" на 60 сек. Вы видите его ауру в течение 4 сек. Одновременно убийца может быть одержим только одним выжившим.",
       },
       statusEffect: ['Oblivious'],
       falseauthorComment: {
@@ -1391,7 +1475,7 @@ export const perksData = [
     },
 
     {
-      id: 51,
+      id: 54,
       icon: "killers/oni/zanshin.png",
       author: {
         en: "The Oni",
@@ -1408,7 +1492,7 @@ export const perksData = [
       },
       description: {
         en: "You are mentally alert and aware of key points on the battlefield. The auras of all pallets, breakable walls, and vault locations are revealed to you within a 32 meter range.",
-        ru: "Вы в курсе того, где расположены важные для выживания объекты. Вы видите ауры досок, разрушаемых стен и мест совершения прыжков в радиусе 32 метров от себя",
+        ru: "Вы в курсе того, где расположены важные для выживания объекты. Вы видите ауры досок, разрушаемых стен и мест совершения прыжков в радиусе 32 м. от себя",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1419,7 +1503,7 @@ export const perksData = [
     },
 
     {
-      id: 52,
+      id: 55,
       icon: "killers/deathslinger/dead.png",
       author: {
         en: "The Deathslinger",
@@ -1436,7 +1520,7 @@ export const perksData = [
       },
       description: {
         en: "When you hook a Survivor, Dead Man's Switch activates for the next 20/25/30 seconds. While activated, any Survivor that stops repairing a generator before it is fully repaired causes The Entity to block the generator until Dead Man's Switch's effect ends. Affected generators are highlighted by a white aura.",
-        ru: "Когда вы вешаете выжившего на крюк, навык \"Аварийная кнопка\" активируется на следующие 30 секунд. Когда навык активен, Сущность заблокирует генератор на время действия \"Аварийной кнопки\", если выживший бросит его, не дочинив. Заблокированные генераторы подсвечиваются белым.",
+        ru: "Когда вы вешаете выжившего на крюк, навык \"Аварийная кнопка\" активируется на следующие 30 сек. Когда навык активен, Сущность заблокирует генератор на время действия \"Аварийной кнопки\", если выживший бросит его, не дочинив. Заблокированные генераторы подсвечиваются белым.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1447,7 +1531,7 @@ export const perksData = [
     },
 
     {
-      id: 53,
+      id: 56,
       icon: "killers/deathslinger/gearhead.png",
       author: {
         en: "The Deathslinger",
@@ -1464,7 +1548,7 @@ export const perksData = [
       },
       description: {
         en: "After a survivor loses a health state by any means, Gearhead activates for 30 seconds. While Gearhead is active, every time a Survivor performs a good Skill Check while repairing, their aura is revealed to you for 8 seconds.",
-        ru: "Когда выживший любым образом теряет уровень здоровья, на 30 сек. активируется навык \"Знаток техники\". Пока \"Знаток техники\" активен, каждый раз, когда кто-то из выживших хорошо проходит проверку реакции при починке, его аура становится видимой на 8 секунд.",
+        ru: "Когда выживший любым образом теряет уровень здоровья, на 30 сек. активируется навык \"Знаток техники\". Пока \"Знаток техники\" активен, каждый раз, когда кто-то из выживших хорошо проходит проверку реакции при починке, его аура становится видимой на 8 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1475,7 +1559,7 @@ export const perksData = [
     },
 
     {
-      id: 54,
+      id: 57,
       icon: "killers/deathslinger/retribution.png",
       author: {
         en: "The Deathslinger",
@@ -1492,7 +1576,7 @@ export const perksData = [
       },
       description: {
         en: "Any Survivor interacting with a Dull Totem or a Hex Totem will suffer from the Oblivious status effect for 45 seconds. If any Hex Totem is removed, including this one, the auras of all Survivors are revealed for 15 seconds. Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.",
-        ru: "На любого выжившего, взаимодействующего с тусклым или проклятым тотемом, будет наложен эффект \"Забывчивость\" на 45 секунд. При уничтожении любого проклятого тотема, в том числе этого, вам будут подсвечены ауры всех выживших на 15 сек.",
+        ru: "На любого выжившего, взаимодействующего с тусклым или проклятым тотемом, будет наложен эффект \"Забывчивость\" на 45 сек. При уничтожении любого проклятого тотема, в том числе этого, вам будут подсвечены ауры всех выживших на 15 сек.",
       },
       statusEffect: ['Oblivious'],
       falseauthorComment: {
@@ -1503,7 +1587,7 @@ export const perksData = [
     },
 
     {
-      id: 55,
+      id: 58,
       icon: "killers/pyramid/deathbound.png",
       author: {
         en: "The Executioner",
@@ -1519,7 +1603,7 @@ export const perksData = [
       },
       description: {
         en: "When a Survivor heals another Survivor for one health state at least 32 meters away from the Killer, the Survivor performing the healing action will scream, revealing their location and activating Deathbound for the next 60 seconds. During that time, the Survivor will suffer from the Oblivious status effect when further than 8 meters away from the healed Survivor.",
-        ru: "Когда выживший восстанавливает другому выжившему состояние здоровья в 32 м от убийцы и более, лечащий кричит, выдавая свое расположение. При этом активируются \"Смертельные узы\" на 60 сек. В это время на выжившего будет действовать эффект \"Забывчивость\", если он отойдет от вылеченного товарища более чем на 8 метров.",
+        ru: "Когда выживший восстанавливает другому выжившему состояние здоровья в 32 м от убийцы и более, лечащий кричит, выдавая свое расположение. При этом активируются \"Смертельные узы\" на 60 сек. В это время на выжившего будет действовать эффект \"Забывчивость\", если он отойдет от вылеченного товарища более чем на 8 м.",
       },
       statusEffect: ['Oblivious'],
       falseauthorComment: {
@@ -1530,7 +1614,7 @@ export const perksData = [
     },
 
     {
-      id: 56,
+      id: 59,
       icon: "killers/pyramid/forced.png",
       author: {
         en: "The Executioner",
@@ -1547,7 +1631,7 @@ export const perksData = [
       },
       description: {
         en: "Survivors who take a protection hit are inflicted with the Broken status effect for 60/70/80 seconds.",
-        ru: "Если выживший принимает удар на себя, на него накладывается эффект \"Ослабление\" на 80 секунд.",
+        ru: "Если выживший принимает удар на себя, на него накладывается эффект \"Ослабление\" на 80 сек.",
       },
       statusEffect: ['Broken'],
       falseauthorComment: {
@@ -1559,7 +1643,7 @@ export const perksData = [
 
 
     {
-      id: 57,
+      id: 60,
       icon: "killers/pyramid/trail.png",
       author: {
         en: "The Executioner",
@@ -1576,7 +1660,7 @@ export const perksData = [
       },
       description: {
         en: "After damaging a generator, you become Undetectable until the generator stops regressing. During this time, the generator's yellow aura is revealed to Survivors. This effect can only trigger once every 30 seconds.",
-        ru: "Сломав генератор, вы получаете эффект \"Незаметность\", пока прогресс починки генератора не прекратит снижаться. В это время аура генератора подсвечивается для выживших желтым. Эффект может сработать только один раз в 30 секунд",
+        ru: "Сломав генератор, вы получаете эффект \"Незаметность\", пока прогресс починки генератора не прекратит снижаться. В это время аура генератора подсвечивается для выживших желтым. Эффект может сработать только один раз в 30 сек.",
       },
       statusEffect: ['Undetectable'],
       falseauthorComment: {
@@ -1587,7 +1671,7 @@ export const perksData = [
     },
 
     {
-      id: 58,
+      id: 61,
       icon: "killers/blight/favor.png",
       author: {
         en: "The Blight",
@@ -1615,7 +1699,7 @@ export const perksData = [
     },
 
     {
-      id: 59,
+      id: 62,
       icon: "killers/blight/undying.png",
       author: {
         en: "The Blight",
@@ -1632,7 +1716,7 @@ export const perksData = [
       },
       description: {
         en: "While Hex: Undying is active, Survivors within 4 meters of any Dull Totem have their aura revealed. When another Hex Totem is cleansed, that Totem's Hex transfers to the Hex: Undying Totem, deactivating Hex: Undying. Any tokens the transferred Hex had are transferred as well.",
-        ru: "Пока \"Порча: Не-смерть\" действует, открываются ауры выживших в радиусе 4 метров от любого тусклого тотема. Когда идет очистка другого проклятого тотема, порча с этого тотема (вместе с ее жетонами) переносится на тотем \"Порча: Не-смерть\" с прекращением действия эффекта \"Порча: Не-смерть\".",
+        ru: "Пока \"Порча: Не-смерть\" действует, открываются ауры выживших в радиусе 4 м. от любого тусклого тотема. Когда идет очистка другого проклятого тотема, порча с этого тотема (вместе с ее жетонами) переносится на тотем \"Порча: Не-смерть\" с прекращением действия эффекта \"Порча: Не-смерть\".",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1643,7 +1727,7 @@ export const perksData = [
     },
 
     {
-      id: 60,
+      id: 63,
       icon: "killers/blight/dragon.png",
       author: {
         en: "The Blight",
@@ -1660,7 +1744,7 @@ export const perksData = [
       },
       description: {
         en: "After damaging a generator, for the next 30 seconds, the first Survivor that interacts with it will scream, revealing their location for 4 seconds, and becoming afflicted with the Exposed status effect for 60 seconds. Dragon's Grip has a cooldown of 40 seconds.",
-        ru: "Первый выживший, который будет взаимодействовать с генератором в течение 30 сек. после его поломки, закричит, выдав свое расположение на 4 сек., а также получит эффект \"Уязвимость\" на 60 сек. Время перезарядки \"Драконьей хватки\": 40 секунд.",
+        ru: "Первый выживший, который будет взаимодействовать с генератором в течение 30 сек. после его поломки, закричит, выдав свое расположение на 4 сек., а также получит эффект \"Уязвимость\" на 60 сек. Время перезарядки \"Драконьей хватки\": 40 сек.",
       },
       statusEffect: ['Exposed'],
       falseauthorComment: {
@@ -1672,7 +1756,7 @@ export const perksData = [
 
 
     {
-      id: 61,
+      id: 64,
       icon: "killers/twins/coup.png",
       author: {
         en: "The Twins",
@@ -1700,7 +1784,7 @@ export const perksData = [
     },
 
     {
-      id: 62,
+      id: 65,
       icon: "killers/twins/hoarded.png",
       author: {
         en: "The Twins",
@@ -1728,7 +1812,7 @@ export const perksData = [
     },
 
     {
-      id: 63,
+      id: 66,
       icon: "killers/twins/oppression.png",
       author: {
         en: "The Twins",
@@ -1745,7 +1829,7 @@ export const perksData = [
       },
       description: {
         en: "When you damage a generator, up to 3 other random generators also begin regressing. If the affected generators are being repaired, any Survivors repairing them receive a difficult Skill Check. Oppression has a cooldown of 40 seconds.",
-        ru: "Когда вы повреждаете генератор, до 3 случайных генераторов также начинают ломаться. Если один из этих генераторов чинят, запускается сложная проверка реакции для всех выживших, участвующих в ремонте. Использовать \"Притеснение\" можно каждые 40 секунд.",
+        ru: "Когда вы повреждаете генератор, до 3 случайных генераторов также начинают ломаться. Если один из этих генераторов чинят, запускается сложная проверка реакции для всех выживших, участвующих в ремонте. Использовать \"Притеснение\" можно каждые 40 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1756,7 +1840,7 @@ export const perksData = [
     },
 
     {
-      id: 64,
+      id: 67,
       icon: "killers/trickster/starstruck.png",
       author: {
         en: "The Trickster",
@@ -1773,7 +1857,7 @@ export const perksData = [
       },
       description: {
         en: "While carrying a Survivor, any other Survivors within your Terror Radius suffer from the Exposed status effect. The effect persists for 30 seconds on Survivors who leave your Terror Radius, as well as those within the radius when you hook or release the carried Survivor. Starstruck has a cooldown of 60 seconds once a Survivor is no longer carried.",
-        ru: "Когда вы несете выжившего, на всех других выживших в вашем радиусе террора действует эффект \"Уязвимость\". Он действует 30 секунд на выживших, которые покинут ваш радиус террора, а также на тех, кто находится в радиусе, когда вы подвешиваете схваченного выжившего на крюк или выпускаете его. \"Фанатение\" перезаряжается в течение 60 сек., как только вы выпускаете выжившего из рук.",
+        ru: "Когда вы несете выжившего, на всех других выживших в вашем радиусе террора действует эффект \"Уязвимость\". Он действует 30 сек. на выживших, которые покинут ваш радиус террора, а также на тех, кто находится в радиусе, когда вы подвешиваете схваченного выжившего на крюк или выпускаете его. \"Фанатение\" перезаряжается в течение 60 сек., как только вы выпускаете выжившего из рук.",
       },
       statusEffect: ['Exposed'],
       falseauthorComment: {
@@ -1784,7 +1868,7 @@ export const perksData = [
     },
 
     {
-      id: 65,
+      id: 68,
       icon: "killers/trickster/crowd.png",
       author: {
         en: "The Trickster",
@@ -1801,7 +1885,7 @@ export const perksData = [
       },
       description: {
         en: "The Entity blocks a window for 60 seconds after a Survivor performs a rushed vault through it. The Hex effects persist as long as the related Hex Totem is standing.",
-        ru: "Сущность на 60 секунд блокирует оконный проем после того, как через него быстро перепрыгивает выживший. Порча действует, пока не уничтожен соответствующий тотем.",
+        ru: "Сущность на 60 сек. блокирует оконный проем после того, как через него быстро перепрыгивает выживший. Порча действует, пока не уничтожен соответствующий тотем.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1812,7 +1896,7 @@ export const perksData = [
     },
 
     {
-      id: 66,
+      id: 69,
       icon: "killers/trickster/wayout.png",
       author: {
         en: "The Trickster",
@@ -1828,7 +1912,7 @@ export const perksData = [
       },
       description: {
         en: "After hooking a Survivor for the first time, No Way Out gains a token. Once the exit gates have been powered, No Way Out activates. When a Survivor interacts with an exit gate switch, you receive a loud noise notification. The Entity then blocks both exit gate switches for 12 seconds, plus an additional 12 seconds for each token in your possession.",
-        ru: "После первого подвешивания выжившего на крюк, \"Выхода нет\" получает жетон. Когда на ворота подается питание, навык \"Выхода нет\" активируется. Если выживший использует рубильник ворот, вы слышите громкий звуковой сигнал. Сущность при этом блокирует рубильники на 12 сек. и дополнительно еще на 12 секунд за каждый жетон, который у вас есть.",
+        ru: "После первого подвешивания выжившего на крюк, \"Выхода нет\" получает жетон. Когда на ворота подается питание, навык \"Выхода нет\" активируется. Если выживший использует рубильник ворот, вы слышите громкий звуковой сигнал. Сущность при этом блокирует рубильники на 12 сек. и дополнительно еще на 12 сек. за каждый жетон, который у вас есть.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1839,7 +1923,7 @@ export const perksData = [
     },
 
     {
-      id: 67,
+      id: 70,
       icon: "killers/nemesis/eruption.png",
       author: {
         en: "The Nemesis",
@@ -1856,7 +1940,7 @@ export const perksData = [
       },
       description: {
         en: "After kicking a generator, its aura is highlighted in yellow. Whenever a Survivor enters the dying state, every affected generator explodes, losing 10% worth of progress, and starts to regress. Any Survivor repairing a generator when it explodes will scream and reveal their aura for 12 seconds. Eruption has a cooldown of 30 seconds.",
-        ru: "После удара по генератору его аура подсвечивается желтым. Когда выживший оказывается при смерти, каждый затронутый генератор взрывается, теряя 10% прогресса починки, а его состояние начинает ухудшаться. Любой выживший, занимающийся починкой генератора, при его взрыве закричит и выдаст свою ауру на 12 секунд. \"Подрыв\" перезаряжается 30 сек.",
+        ru: "После удара по генератору его аура подсвечивается желтым. Когда выживший оказывается при смерти, каждый затронутый генератор взрывается, теряя 10% прогресса починки, а его состояние начинает ухудшаться. Любой выживший, занимающийся починкой генератора, при его взрыве закричит и выдаст свою ауру на 12 сек. \"Подрыв\" перезаряжается 30 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1868,7 +1952,7 @@ export const perksData = [
 
 
     {
-      id: 68,
+      id: 71,
       icon: "killers/nemesis/hysteria.png",
       author: {
         en: "The Nemesis",
@@ -1885,7 +1969,7 @@ export const perksData = [
       },
       description: {
         en: "Whenever a healthy Survivor becomes injured by any means, all injured Survivors suffer from the Oblivious status effect for 30 seconds. Hysteria can only trigger once every 30 seconds.",
-        ru: "Когда здоровый выживший получает ранение, все раненые выжившие получают эффект \"Забывчивость\" на 30 секунд. \"Истерия\" может срабатывать только раз в 30 сек.",
+        ru: "Когда здоровый выживший получает ранение, все раненые выжившие получают эффект \"Забывчивость\" на 30 сек. \"Истерия\" может срабатывать только раз в 30 сек.",
       },
       statusEffect: ['Oblivious'],
       falseauthorComment: {
@@ -1897,7 +1981,7 @@ export const perksData = [
 
 
     {
-      id: 69,
+      id: 72,
       icon: "killers/nemesis/lethal.png",
       author: {
         en: "The Nemesis",
@@ -1914,7 +1998,7 @@ export const perksData = [
       },
       description: {
         en: "At the start of the trial, the auras of all Survivors are revealed to you for 9 seconds. Any time a Survivor's aura is shown for a period of time, its duration is increased by 2 seconds.",
-        ru: "В начале матча вы видите ауры всех выживших в течение 9 секунд Когда аура выжившего проявляется на определенное время, оно увеличивается на 2 сек.",
+        ru: "В начале матча вы видите ауры всех выживших в течение 9 сек. Когда аура выжившего проявляется на определенное время, оно увеличивается на 2 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1925,7 +2009,7 @@ export const perksData = [
     },
 
     {
-      id: 70,
+      id: 73,
       icon: "killers/pinhead/plaything.png",
       author: {
         en: "The Pinhead",
@@ -1953,7 +2037,7 @@ export const perksData = [
     },
 
     {
-      id: 71,
+      id: 74,
       icon: "killers/pinhead/deadlock.png",
       author: {
         en: "The Pinhead",
@@ -1970,7 +2054,7 @@ export const perksData = [
       },
       description: {
         en: "After a generator is repaired, The Entity blocks the generator with the most progress for 25 seconds. You see its white aura during this time.",
-        ru: "При полной починке генератора Сущность блокирует генератор с наибольшим прогрессом на 25 секунд. Вы видите белую ауру в течение этого времени.",
+        ru: "При полной починке генератора Сущность блокирует генератор с наибольшим прогрессом на 25 сек. Вы видите белую ауру в течение этого времени.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -1981,7 +2065,7 @@ export const perksData = [
     },
 
     {
-      id: 72,
+      id: 75,
       icon: "killers/pinhead/pain.png",
       author: {
         en: "The Pinhead",
@@ -2009,7 +2093,7 @@ export const perksData = [
     },
 
     {
-      id: 73,
+      id: 76,
       icon: "killers/artist/pentimento.png",
       author: {
         en: "The Artist",
@@ -2037,7 +2121,7 @@ export const perksData = [
     },
 
     {
-      id: 74,
+      id: 77,
       icon: "killers/artist/reson.png",
       author: {
         en: "The Artist",
@@ -2065,7 +2149,7 @@ export const perksData = [
     },
 
     {
-      id: 75,
+      id: 78,
       icon: "killers/artist/grim.png",
       author: {
         en: "The Artist",
@@ -2082,7 +2166,7 @@ export const perksData = [
       },
       description: {
         en: "Each time a Survivor is hooked for the first time, gain a token. When moving 16 meters away from the hook, all generators are blocked for 10 seconds. Upon reaching 4 tokens, when moving 16 meters away from the hook, The Entity instead blocks all generators for 40 seconds. The Obsession's aura is revealed to you for 6 seconds. Then, Grim Embrace deactivates. The Killer can only be obsessed with one Survivor at a time.",
-        ru: "Каждый раз, когда выживший впервые оказывается подвешен на крюк, вы получаете жетон. Когда вы отходите на 16 м от крюка, все генераторы блокируются на 12 секунд. Когда вы накопите жетоны в количестве 4 шт. и отойдете от крюка на 16 м, Сущность заблокирует все генераторы на 40 секунд. Вы видите ауру объекта одержимости в течение 6 сек. Затем \"Мрачные объятья\" перестают действовать. Одновременно убийца может быть одержим только одним выжившим.",
+        ru: "Каждый раз, когда выживший впервые оказывается подвешен на крюк, вы получаете жетон. Когда вы отходите на 16 м от крюка, все генераторы блокируются на 12 сек. Когда вы накопите жетоны в количестве 4 шт. и отойдете от крюка на 16 м, Сущность заблокирует все генераторы на 40 сек. Вы видите ауру объекта одержимости в течение 6 сек. Затем \"Мрачные объятья\" перестают действовать. Одновременно убийца может быть одержим только одним выжившим.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -2093,7 +2177,7 @@ export const perksData = [
     },
 
     {
-      id: 76,
+      id: 79,
       icon: "killers/onryo/merciless.png",
       author: {
         en: "The Onryō",
@@ -2109,7 +2193,7 @@ export const perksData = [
       },
       description: {
         en: "When a generator reaches 90% progress, Survivors working on the generator will be faced with continuous Skill Checks. If they miss or stop repairing, the generator is blocked by the Entity for 20 seconds. Merciless Storm can only trigger once per generator per trial.",
-        ru: "Когда генератор починен на 90%, выжившим, работающим с этим генератором, надо постоянно проходить проверки реакции. За неудачу или прекращение ремонта генератор блокируется на 20 секунд. \"Безжалостный шторм\" может сработать только раз за матч для каждого генератора.",
+        ru: "Когда генератор починен на 90%, выжившим, работающим с этим генератором, надо постоянно проходить проверки реакции. За неудачу или прекращение ремонта генератор блокируется на 20 сек. \"Безжалостный шторм\" может сработать только раз за матч для каждого генератора.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -2120,7 +2204,7 @@ export const perksData = [
     },
 
     {
-      id: 77,
+      id: 80,
       icon: "killers/onryo/brine.png",
       author: {
         en: "The Onryō",
@@ -2148,7 +2232,7 @@ export const perksData = [
     },
 
     {
-      id: 78,
+      id: 81,
       icon: "killers/onryo/floods.png",
       author: {
         en: "The Onryō",
@@ -2165,7 +2249,7 @@ export const perksData = [
       },
       description: {
         en: "At the start of the trial, 4 random hooks are changed into scourge hooks. You see their auras in white. When a Survivor is unhooked from a scourge hook, all other Survivors have their auras revealed for 7 seconds.",
-        ru: "В начале матча до 4 случайных крюков становятся секущими. Их ауры выделены белым цветом. Когда выжившего снимают с секущего крюка, ауры прочих выживших становятся видны на 7 секунд.",
+        ru: "В начале матча до 4 случайных крюков становятся секущими. Их ауры выделены белым цветом. Когда выжившего снимают с секущего крюка, ауры прочих выживших становятся видны на 7 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -2176,7 +2260,7 @@ export const perksData = [
     },
 
     {
-      id: 79,
+      id: 82,
       icon: "killers/dredge/septic.png",
       author: {
         en: "The Dredge",
@@ -2192,7 +2276,7 @@ export const perksData = [
       },
       description: {
         en: "Whenever a Survivor performs the healing action within your Terror Radius, that Survivor suffers from Blindness and Exhausted. These effects linger for 10 seconds after a healing action is interrupted by any means.",
-        ru: "Если выживший совершает действие лечения в вашем радиусе террора, он подвергается эффектам \"Слепота\" и \"Усталость\". Эффект действуют на него в течение 10 секунд после прерывания лечения.",
+        ru: "Если выживший совершает действие лечения в вашем радиусе террора, он подвергается эффектам \"Слепота\" и \"Усталость\". Эффект действуют на него в течение 10 сек. после прерывания лечения.",
       },
       statusEffect: ['Blindness', 'Exhausted'],
       falseauthorComment: {
@@ -2203,7 +2287,7 @@ export const perksData = [
     },
 
     {
-      id: 80,
+      id: 83,
       icon: "killers/dredge/revealed.png",
       author: {
         en: "The Dredge",
@@ -2219,7 +2303,7 @@ export const perksData = [
       },
       description: {
         en: "When you search a locker, the auras of all Survivors within 8 meters of any lockers are revealed to you for 8 seconds. Darkness Revealed has a cooldown of 30 seconds.",
-        ru: "Когда вы открываете шкафчик, ауры всех выживших в пределах 8 м от любого шкафчика показываются вам на 8 секунд. Этот навык перезаряжается 30 сек.",
+        ru: "Когда вы открываете шкафчик, ауры всех выживших в пределах 8 м от любого шкафчика показываются вам на 8 сек. Этот навык перезаряжается 30 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -2230,7 +2314,7 @@ export const perksData = [
     },
 
     {
-      id: 81,
+      id: 84,
       icon: "killers/dredge/dissolation.png",
       author: {
         en: "The Dredge",
@@ -2246,7 +2330,7 @@ export const perksData = [
       },
       description: {
         en: "3 seconds after injuring a Survivor by any means, Dissolution activates for 20 seconds. While Dissolution is active, if a Survivor fast vaults over a pallet inside of your Terror Radius, The Entity will break the pallet at the end of the vault, and Dissolution deactivates.",
-        ru: "Через 3 сек. после ранения выжившего любым способом, вы активируете \"Растворение\" на 20 секунд. Если выживший быстро перепрыгивает через доски в пределах вашего радиуса террора, пока \"Растворение\" активно, Сущность сломает доски после прыжка, а действие этого навыка прекратится.",
+        ru: "Через 3 сек. после ранения выжившего любым способом, вы активируете \"Растворение\" на 20 сек. Если выживший быстро перепрыгивает через доски в пределах вашего радиуса террора, пока \"Растворение\" активно, Сущность сломает доски после прыжка, а действие этого навыка прекратится.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -2257,7 +2341,7 @@ export const perksData = [
     },
 
     {
-      id: 82,
+      id: 85,
       icon: "killers/wesker/anatomy.png",
       author: {
         en: "The Mastermind",
@@ -2284,7 +2368,7 @@ export const perksData = [
     },
 
     {
-      id: 83,
+      id: 86,
       icon: "killers/wesker/awakened.png",
       author: {
         en: "The Mastermind",
@@ -2300,7 +2384,7 @@ export const perksData = [
       },
       description: {
         en: "When carrying a Survivor, you can see the aura of other Survivors within 16/18/20 meters of your position.",
-        ru: "Неся выжившего, вы видите ауры других выживших в пределах 20 метров от себя.",
+        ru: "Неся выжившего, вы видите ауры других выживших в пределах 20 м. от себя.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -2311,7 +2395,7 @@ export const perksData = [
     },
 
     {
-      id: 84,
+      id: 87,
       icon: "killers/wesker/terminus.png",
       author: {
         en: "The Mastermind",
@@ -2327,7 +2411,7 @@ export const perksData = [
       },
       description: {
         en: "When exit gates are powered, this perk activates. While Terminus is active, injured, downed and hooked Survivors are inflicted with the Broken status effect until exit gates are open. When exit gates are open, Survivors will stay Broken for an additional 30 seconds.",
-        ru: "Этот навык активируется, когда на ворота подается электричество. Пока \"Последний этап\" активен, раненые, смертельно раненые и повешенные на крюк выжившие подвергаются эффекту \"Ослабление\" до тех пор, пока ворота не откроются. Когда ворота открываются, выжившие остаются ослабленными еще 30 секунд.",
+        ru: "Этот навык активируется, когда на ворота подается электричество. Пока \"Последний этап\" активен, раненые, смертельно раненые и повешенные на крюк выжившие подвергаются эффекту \"Ослабление\" до тех пор, пока ворота не откроются. Когда ворота открываются, выжившие остаются ослабленными еще 30 сек.",
       },
       statusEffect: ['Broken'],
       falseauthorComment: {
@@ -2338,7 +2422,7 @@ export const perksData = [
     },
     
     {
-      id: 85,
+      id: 88,
       icon: "killers/knight/nowhere.png",
       author: {
         en: "The Knight",
@@ -2354,7 +2438,7 @@ export const perksData = [
       },
       description: {
         en: "Whenever you damage a generator, reveal the aura of all Survivors standing within 24 meters of your position for 5 seconds.",
-        ru: "Всякий раз, когда вы повреждаете генератор, в течение 5 секунд вы видите ауры всех выживших, стоящих в пределах 24 м от вас.",
+        ru: "Всякий раз, когда вы повреждаете генератор, в течение 5 сек. вы видите ауры всех выживших, стоящих в пределах 24 м от вас.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -2365,7 +2449,7 @@ export const perksData = [
     },
 
     {
-      id: 86,
+      id: 89,
       icon: "killers/knight/darkness.png",
       author: {
         en: "The Knight",
@@ -2381,7 +2465,7 @@ export const perksData = [
       },
       description: {
         en: "Injuring a Survivor by any means lights a Dull Totem, activating the Hex. While the Hex is active, all other Survivors outside of your Terror Radius will scream every 25 seconds, revealing their positions and auras for 2 seconds. When the Survivor enters the dying state or becomes healthy, the Hex totem becomes dull again and this perk deactivates. If the Hex totem is cleansed, this perk is permanently disabled.",
-        ru: "Когда выживший любым способом получает ранение, тусклый тотем загорается и накладывает порчу. При действии этой порчи все остальные выжившие за пределами вашего радиуса террора будут вскрикивать раз в 25 секунд, показывая свои ауры и выдавая свое местонахождение на 2 сек. Когда проклятый выживший оказывается смертельно ранен или полностью восстанавливает здоровье, порча снимается, а проклятый тотем тускнеет. При очистке тотема этот навык выключается навсегда.",
+        ru: "Когда выживший любым способом получает ранение, тусклый тотем загорается и накладывает порчу. При действии этой порчи все остальные выжившие за пределами вашего радиуса террора будут вскрикивать раз в 25 сек., показывая свои ауры и выдавая свое местонахождение на 2 сек. Когда проклятый выживший оказывается смертельно ранен или полностью восстанавливает здоровье, порча снимается, а проклятый тотем тускнеет. При очистке тотема этот навык выключается навсегда.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -2392,7 +2476,7 @@ export const perksData = [
     },
 
     {
-      id: 87,
+      id: 90,
       icon: "killers/knight/hubris.png",
       author: {
         en: "The Knight",
@@ -2408,7 +2492,7 @@ export const perksData = [
       },
       description: {
         en: "Whenever you are stunned by a Survivor, that Survivor suffers from the Exposed status effect for 20 seconds. Hubris has a cooldown of 20 seconds. Exposed Survivors will be downed by basic",
-        ru: "Когда вас оглушает выживший, на него в течение 20 секунд действует эффект \"Уязвимость\". \"Свирепой гордыне\" требуется 20 сек. на перезарядку.",
+        ru: "Когда вас оглушает выживший, на него в течение 20 сек. действует эффект \"Уязвимость\". \"Свирепой гордыне\" требуется 20 сек. на перезарядку.",
       },
       statusEffect: ['Exposed'],
       falseauthorComment: {
@@ -2419,7 +2503,7 @@ export const perksData = [
     },
 
     {
-      id: 88,
+      id: 91,
       icon: "killers/skull/game.png",
       author: {
         en: "The Skull Merchant",
@@ -2435,7 +2519,7 @@ export const perksData = [
       },
       description: {
         en: "While you are chasing the Obsession, this perk activates. Damaging generators and breaking walls or pallets gives you a 5% Haste Status for 10 seconds. Whenever you hit the Survivor with the total most time in chase with a basic attack, they become the obsession. The Killer can only be obsessed with one Survivor at a time.",
-        ru: "Этот навык активируется, когда вы преследуете объект одержимости. За поломку генераторов и разрушение стен или досок вы получаете \"Спешку\" в 5% на 10 секунд. После успешной базовой атаки по выжившему, которого вы преследовали дольше всех, этот выживший становится объектом вашей одержимости. Убийца может быть одержим только одним выжившим одновременно.",
+        ru: "Этот навык активируется, когда вы преследуете объект одержимости. За поломку генераторов и разрушение стен или досок вы получаете \"Спешку\" в 5% на 10 сек. После успешной базовой атаки по выжившему, которого вы преследовали дольше всех, этот выживший становится объектом вашей одержимости. Убийца может быть одержим только одним выжившим одновременно.",
       },
       statusEffect: ['Haste'],
       falseauthorComment: {
@@ -2446,7 +2530,7 @@ export const perksData = [
     },
 
     {
-      id: 89,
+      id: 92,
       icon: "killers/skull/leverage.png",
       author: {
         en: "The Skull Merchant",
@@ -2473,7 +2557,7 @@ export const perksData = [
     },
 
     {
-      id: 90,
+      id: 93,
       icon: "killers/skull/thawk.png",
       author: {
         en: "The Skull Merchant",
@@ -2489,7 +2573,7 @@ export const perksData = [
       },
       description: {
         en: "After hooking a Survivor, this perk activates. The next breakable wall or pallet you break will make Survivors within 32 meters scream and reveal their aura for 4 seconds.",
-        ru: "Этот навык активируется после того, как вы повесите выжившего на крюк. Следующая сломанная вами стена или доска заставит выживших в радиусе 32 метров закричать и проявить свою ауру на 4 сек",
+        ru: "Этот навык активируется после того, как вы повесите выжившего на крюк. Следующая сломанная вами стена или доска заставит выживших в радиусе 32 м. закричать и проявить свою ауру на 4 сек",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -2500,7 +2584,7 @@ export const perksData = [
     },
 
     {
-      id: 91,
+      id: 94,
       icon: "killers/singularity/forced.png",
       author: {
         en: "The Singularity",
@@ -2516,7 +2600,7 @@ export const perksData = [
       },
       description: {
         en: "When a Survivor is put into the dying state by any means, all other Survivors standing within a 16 meter range around them suffer the Hindered status effect for 10 seconds, reducing their movement speed by 20%. This perk goes on cooldown for 30 seconds.",
-        ru: "Когда выживший по какой-либо причине оказывается при смерти, на всех остальных выживших в радиусе 16м накладывается эффект \"Замедление\" на 10 сек, замедляющий их передвижение на 20%. Этот навык перезаряжается 30 секунд.",
+        ru: "Когда выживший по какой-либо причине оказывается при смерти, на всех остальных выживших в радиусе 16м накладывается эффект \"Замедление\" на 10 сек, замедляющий их передвижение на 20%. Этот навык перезаряжается 30 сек.",
       },
       statusEffect: ['Hindred'],
       falseauthorComment: {
@@ -2527,7 +2611,7 @@ export const perksData = [
     },
 
     {
-      id: 92,
+      id: 95,
       icon: "killers/singularity/genetic.png",
       author: {
         en: "The Singularity",
@@ -2543,7 +2627,7 @@ export const perksData = [
       },
       description: {
         en: "When a Survivor finishes the healing action, they suffer the Exhausted status effect for 32 seconds.",
-        ru: "Когда выживший завершает лечение, на него накладывается статус \"Усталость\" на 32 секунд",
+        ru: "Когда выживший завершает лечение, на него накладывается статус \"Усталость\" на 32 сек.",
       },
       statusEffect: ['Exhausted'],
       falseauthorComment: {
@@ -2554,7 +2638,7 @@ export const perksData = [
     },
 
     {
-      id: 93,
+      id: 96,
       icon: "killers/singularity/machine.png",
       author: {
         en: "The Singularity",
@@ -2570,7 +2654,7 @@ export const perksData = [
       },
       description: {
         en: "After performing the damage generator action, this perk activates. While this perk is active, the next generator you damage will be compromised until it is completed. The generator is highlighted in yellow. When the compromised generator is completed, you become Undetectable and gain 10% Haste for 60 seconds. Then, the perk deactivates. If you damage a generator while another generator is compromised, the compromised generator becomes the latest one damaged.",
-        ru: "Этот навык активируется, если нанести урон генератору. Пока этот навык активен, следующий генератор, который вы повредите, станет дефектным, пока его не починят. Этот генератор будет подсвечен желтым. Если дефектный генератор починят, вы получите \"Незаметность\" и \"Спешку\" 10% на 60 секунд. После этого действие навыка закончится. Если генератор дефектный, а вы в это время повредите другой генератор, дефектным станет последний поврежденный генератор.",
+        ru: "Этот навык активируется, если нанести урон генератору. Пока этот навык активен, следующий генератор, который вы повредите, станет дефектным, пока его не починят. Этот генератор будет подсвечен желтым. Если дефектный генератор починят, вы получите \"Незаметность\" и \"Спешку\" 10% на 60 сек. После этого действие навыка закончится. Если генератор дефектный, а вы в это время повредите другой генератор, дефектным станет последний поврежденный генератор.",
       },
       statusEffect: ['Undetectable', 'Haste'],
       falseauthorComment: {
@@ -2581,7 +2665,7 @@ export const perksData = [
     },
 
     {
-      id: 94,
+      id: 97,
       icon: "killers/xenomorph/ultimate.png",
       author: {
         en: "The Xenomorph",
@@ -2597,7 +2681,7 @@ export const perksData = [
       },
       description: {
         en: "When you open a locker, all Survivors within 32 meters of the locker scream and reveal their position, then gain blindness for 30 seconds. This perk goes on cooldown for 60 seconds.",
-        ru: "Когда вы открываете шкафчик, все выжившие в радиусе 32 метров от шкафчика закричат, выдав свое местоположение, затем получат эффект \"Слепота\" на 30 секунд. Этот навык перезаряжается 60 секунд.",
+        ru: "Когда вы открываете шкафчик, все выжившие в радиусе 32 м. от шкафчика закричат, выдав свое местоположение, затем получат эффект \"Слепота\" на 30 сек. Этот навык перезаряжается 60 сек.",
       },
       statusEffect: ['Blindness'],
       falseauthorComment: {
@@ -2608,7 +2692,7 @@ export const perksData = [
     },
 
     {
-      id: 95,
+      id: 98,
       icon: "killers/xenomorph/rapid.png",
       author: {
         en: "The Xenomorph",
@@ -2624,7 +2708,7 @@ export const perksData = [
       },
       description: {
         en: "You can no longer gain Bloodlust. Hitting a Survivor with a basic attack gives you 5% Haste for 10 seconds.",
-        ru: "Вы больше не можете получить \"Кровожадность\". Ударив выжившего базовой атакой, вы получаете 5% к \"Спешке\" на 10 секунд.",
+        ru: "Вы больше не можете получить \"Кровожадность\". Ударив выжившего базовой атакой, вы получаете 5% к \"Спешке\" на 10 сек.",
       },
       statusEffect: ['Haste'],
       falseauthorComment: {
@@ -2635,7 +2719,7 @@ export const perksData = [
     },
 
     {
-      id: 96,
+      id: 99,
       icon: "killers/xenomorph/alien.png",
       author: {
         en: "The Xenomorph",
@@ -2651,7 +2735,7 @@ export const perksData = [
       },
       description: {
         en: "This perk activates when you hook a Survivor. You see the aura of the farthest injured Survivor for 5 seconds and that Survivor is Oblivious for 20 seconds.",
-        ru: "Данный навык активируется, когда вы подвешиваете выжившего на крюк. В течение 5 сек. вы будете видеть ауру самого дальнего раненого выжившего, на которого будет наложен эффект \"Забывчивость\" на 20 секунд.",
+        ru: "Данный навык активируется, когда вы подвешиваете выжившего на крюк. В течение 5 сек. вы будете видеть ауру самого дальнего раненого выжившего, на которого будет наложен эффект \"Забывчивость\" на 20 сек.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -2662,7 +2746,7 @@ export const perksData = [
     },
 
     {
-      id: 97,
+      id: 100,
       icon: "killers/good/batteries.png",
       author: {
         en: "The Good Guy",
@@ -2678,7 +2762,7 @@ export const perksData = [
       },
       description: {
         en: "When within 12 meters of a completed generator, you have 5% Haste. The movement speed bonus lingers for 1/3/5 seconds after leaving the generator's range.",
-        ru: "Оказавшись в пределах 12 м от починенного генератора, вы получаете 5% \"Спешки\". Бонус к скорости передвижения сохраняется на {секунд} после ухода от генератора. Навык \"Батарейки в комплекте\" отключается, когда все генераторы починены.",
+        ru: "Оказавшись в пределах 12 м от починенного генератора, вы получаете 5% \"Спешки\". Бонус к скорости передвижения сохраняется на {сек.} после ухода от генератора. Навык \"Батарейки в комплекте\" отключается, когда все генераторы починены.",
       },
       statusEffect: ['Haste'],
       falseauthorComment: {
@@ -2689,7 +2773,7 @@ export const perksData = [
     },
 
     {
-      id: 98,
+      id: 101,
       icon: "killers/good/friends.png",
       author: {
         en: "The Good Guy",
@@ -2704,7 +2788,7 @@ export const perksData = [
         ru: "Вы убьете любого, кто встанет между вами и целью.",
       },
       description: {
-        en: "Вы становитесь одержимы кем-то из выживших. Если вы вешаете на крюк выжившего, не являющегося объектом одержимости, объект одержимости получает \"Уязвимость\" на 20 сек., и вы видите его ауру в течение 10 секунд. Когда вы подвешиваете на крюк объект одержимости, другой случайный выживший издает крик, выдает свое местоположение и становится новым объектом одержимости. Убийца может быть одержим только одним выжившим за раз.",
+        en: "Вы становитесь одержимы кем-то из выживших. Если вы вешаете на крюк выжившего, не являющегося объектом одержимости, объект одержимости получает \"Уязвимость\" на 20 сек., и вы видите его ауру в течение 10 сек. Когда вы подвешиваете на крюк объект одержимости, другой случайный выживший издает крик, выдает свое местоположение и становится новым объектом одержимости. Убийца может быть одержим только одним выжившим за раз.",
         ru: "You become obsessed with one Survivor. When you hook a Survivor that is not the Obsession, the Obsession becomes Exposed for 20 seconds and reveals their aura for 10 seconds. When you hook the Obsession, another random Survivor screams and reveals their position and becomes the Obsession. The Killer can only be obsessed with one Survivor at a time.",
       },
       statusEffect: ['Exposed'],
@@ -2716,7 +2800,7 @@ export const perksData = [
     },
 
     {
-      id: 99,
+      id: 102,
       icon: "killers/good/two.png",
       author: {
         en: "The Good Guy",
@@ -2743,7 +2827,7 @@ export const perksData = [
     },
 
     {
-      id: 100,
+      id: 103,
       icon: "killers/Unknown/unbound.png",
       author: {
         en: "The Unknown",
@@ -2759,7 +2843,7 @@ export const perksData = [
       },
       description: {
         en: "This perk activates for 30 seconds after a Survivor becomes injured by any means. After vaulting a window, you gain 5% Haste for 10 seconds. This effect cannot stack with itself.",
-        ru: "Этот навык активируется на 30 секунд, когда выживший получает любые повреждения. Прыгнув в окно, вы получаете 5% к \"Спешке\" на 10 сек. Этот эффект не может складываться с самим собой.",
+        ru: "Этот навык активируется на 30 сек., когда выживший получает любые повреждения. Прыгнув в окно, вы получаете 5% к \"Спешке\" на 10 сек. Этот эффект не может складываться с самим собой.",
       },
       statusEffect: ['Haste'],
       falseauthorComment: {
@@ -2770,7 +2854,7 @@ export const perksData = [
     },
 
     {
-      id: 101,
+      id: 104,
       icon: "killers/Unknown/unforseen.png",
       author: {
         en: "The Unknown",
@@ -2786,7 +2870,7 @@ export const perksData = [
       },
       description: {
         en: "When you perform the break action on a generator, your Terror Radius transfers to the generator for 30 seconds and its radius is set to 32 meters. You gain Undetectable for that duration. Then, this perk goes on cooldown for 30 seconds.",
-        ru: "Ломая генератор, вы окружаете его радиусом террора в 32 м на 30 секунд. В течение этого времени вы получаете эффект \"Незаметность\". Навык перезаряжается в течение 30 сек.",
+        ru: "Ломая генератор, вы окружаете его радиусом террора в 32 м на 30 сек. В течение этого времени вы получаете эффект \"Незаметность\". Навык перезаряжается в течение 30 сек.",
       },
       statusEffect: ['Undetectable '],
       falseauthorComment: {
@@ -2797,7 +2881,7 @@ export const perksData = [
     },
 
     {
-      id: 102,
+      id: 105,
       icon: "killers/Unknown/undone.png",
       author: {
         en: "The Unknown",
@@ -2824,7 +2908,7 @@ export const perksData = [
     },
 
     {
-      id: 103,
+      id: 106,
       icon: "killers/vecna/weaveattunement.png",
       author: {
         en: "The Lich",
@@ -2841,7 +2925,7 @@ export const perksData = [
       },
       description: {
         en: "Whenever an Item is depleted for the first time, it is automatically dropped: The Auras of dropped Survivor Items are revealed to you, as well as the Auras of any Survivors within 8 metres of them. Causes Survivors picking up a Survivor Item to suffer from the Oblivious Status Effect for 30 seconds.",
-        ru: "Когда у предмета впервые заканчиваются заряды, выживший выбрасывает его. Вы можете видеть ауры брошенных предметов. Вы также видите ауры выживших в радиусе 12 м от брошенных предметов, ауры которых вы увидели. Когда выживший подбирает предмет выжившего, на него действует \"Забывчивость\" в течение 30 секунд.",
+        ru: "Когда у предмета впервые заканчиваются заряды, выживший выбрасывает его. Вы можете видеть ауры брошенных предметов. Вы также видите ауры выживших в радиусе 12 м от брошенных предметов, ауры которых вы увидели. Когда выживший подбирает предмет выжившего, на него действует \"Забывчивость\" в течение 30 сек.",
       },
       statusEffect: ['Oblivious'],
       falseauthorComment: {
@@ -2852,7 +2936,7 @@ export const perksData = [
     },
 
     {
-      id: 104,
+      id: 107,
       icon: "killers/vecna/languidtouch.png",
       author: {
         en: "The Lich",
@@ -2868,7 +2952,7 @@ export const perksData = [
       },
       description: {
         en: "When a Survivor within 36 meters of you scares a crow, they gain the Exhausted status effect for 10 seconds. Languid Touch has a cooldown of 20 seconds.",
-        ru: "Когда выживший оказывается в 36 м от вас и спугивает ворону, на него накладывается эффект \"Усталость\" на 10 секунд. Этот навык восстанавливается в течение 20 сек.",
+        ru: "Когда выживший оказывается в 36 м от вас и спугивает ворону, на него накладывается эффект \"Усталость\" на 10 сек. Этот навык восстанавливается в течение 20 сек.",
       },
       statusEffect: ['Exhausted'],
       falseauthorComment: {
@@ -2879,7 +2963,7 @@ export const perksData = [
     },
 
     {
-      id: 105,
+      id: 108,
       icon: "killers/vecna/darkarrogance.png",
       author: {
         en: "The Lich",
@@ -2907,7 +2991,7 @@ export const perksData = [
     },
 
     {
-      id: 106,
+      id: 109,
       icon: "killers/darklord/wretched.png",
       author: {
         en: "The Dark Lord",
@@ -2923,7 +3007,7 @@ export const perksData = [
       },
       description: {
         en: "After one generator has been repaired, a random Dull Totem becomes a Hex Totem and curses the Obsession. The Obsession suffers a 33% repair speed penalty. They also see this Hex Totem's aura when within 12 meters. This effect persists until the Hex Totem is cleansed. The Killer can only be obsessed with one Survivor at a time.",
-        ru: "После починки генератора, случайный тусклый тотем становится проклятым, и накладывает \"Проклятие\" на вашу одержимость, в ходе чего она получает штраф к скорости починки в 27/30/33% и сможет увидеть ауру проклятого тотема с 12 метров. Эффект навыка сохраняется, пока остаётся активен проклятый тотем.",
+        ru: "После починки генератора, случайный тусклый тотем становится проклятым, и накладывает \"Проклятие\" на вашу одержимость, в ходе чего она получает штраф к скорости починки в 27/30/33% и сможет увидеть ауру проклятого тотема с 12 м. Эффект навыка сохраняется, пока остаётся активен проклятый тотем.",
       },
       statusEffect: [''],
       falseauthorComment: {
@@ -2934,7 +3018,7 @@ export const perksData = [
     },
 
     {
-      id: 107,
+      id: 110,
       icon: "killers/darklord/human.png",
       author: {
         en: "The Dark Lord",
@@ -2961,7 +3045,7 @@ export const perksData = [
     },
 
     {
-      id: 108,
+      id: 111,
       icon: "killers/darklord/dominance.png",
       author: {
         en: "The Dark Lord",
@@ -2986,5 +3070,362 @@ export const perksData = [
       }
       
     },
+
+    {
+      id: 112,
+      icon: "killers/default/bitter.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Bitter Murmur",
+        ru: "Тихий шорох",
+      },
+      falseDescription: {
+        en: "Unlocks potential in your Aura-reading ability:",
+        ru: "У Вас появляется способность чтения ауры. ",
+      },
+      description: {
+        en: "Each time a generator is fully repaired, Survivors within 16 meters of the completed generator will be revealed for 5 seconds. When the last generator is fully repaired, all the Survivors' auras are revealed for 10 seconds.",
+        ru: "Каждый раз после полной починки генератора вы будете видеть ауры Выживших в радиусе 16 м. от заведенного генератора в течение 5 сек. Когда будет полностью заведен последний генератор, ауры всех выживших откроются вам на 10 сек.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "",
+        ru: ""
+      }
+      
+    },
+
+    {
+      id: 113,
+      icon: "killers/default/deerstalker.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Deerstalker",
+        ru: "Охотник на оленей",
+      },
+      falseDescription: {
+        en: "Unlocks potential in one's aura reading ability. ",
+        ru: "У вас появляется способность чтения ауры.",
+      },
+      description: {
+        en: "Reveals dying survivors' auras when standing within a 36 meter range.",
+        ru: "Вы видите ауры умирающих выживших в радиусе 36 м. от вас.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "",
+        ru: ""
+      }
+      
+    },
+
+
+    {
+      id: 114,
+      icon: "killers/default/distressing.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Distressing",
+        ru: "Сеющий страх",
+      },
+      falseDescription: {
+        en: "Your horrifying emanation strikes at a supernaturally long distance.",
+        ru: "Ваша ужасающая энергетика распространяется на сверхъестественно большие расстояния.",
+      },
+      description: {
+        en: "Your Terror Radius is increased by 26%. Gain 100% more Bloodpoints for actions in the Deviousness category.",
+        ru: "Радиус вашего террора увеличивается на 26%. Вы получаете на 100% больше очков крови за действия в категории хитрость.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "\"Bask in their fear.\"",
+        ru: "«Насладись их страхом.»"
+      }
+      
+    },
+
+
+    {
+      id: 115,
+      icon: "killers/default/insidious.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Insidious",
+        ru: "Коварство",
+      },
+      falseDescription: {
+        en: "Unlocks the stealth ability.",
+        ru: "Вы научились действовать скрытно.",
+      },
+      description: {
+        en: "Standing still for 2 seconds grants you the Undetectable status effect until you move or act again.",
+        ru: "Простояв неподвижно в течение 2 сек., вы получаете эффект \"Незаметность\", который пропадет, если вы совершите действие или начнете двигаться.",
+      },
+      statusEffect: ['Undetectable'],
+      falseauthorComment: {
+        en: "",
+        ru: ""
+      }
+      
+    },
+
+
+    {
+      id: 116,
+      icon: "killers/default/noone.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Hex: No One Escapes Death",
+        ru: "Порча: никому не скрыться от смерти",
+      },
+      falseDescription: {
+        en: "A Hex rooting its power on hope. You are animated by the power of your Hex Totem when the Survivors are on the verge of escaping.",
+        ru: "Порча, черпающая силу в надежде. Тотем порчи наполняет вас силой, когда выжившие в двух шагах от бегства.",
+      },
+      description: {
+        en: "Once the exit gates are powered, if there is a Dull Totem remaining on the map, this Hex is applied to it. While this Hex is active, Survivors suffer from the Exposed status effect. Your movement speed is increased by 4%. Once the Hex's effect is revealed to the Survivors, its Hex Totem's aura is shown to the Survivors at a range of 4 meters. This range increases steadily over the next 30 seconds to 24 meters. The Hex effects persist as long as the related Hex Totem is standing.",
+        ru: "Как только на ворота будет подано питание, проклятие падет на тусклый тотем, если он остался на карте. Во время действия этого проклятия выжившие получают эффект \"Уязвимость\". Ваша скорость передвижения увеличивается на 4%. Как только выжившие замечают эффект порчи, они начинают видеть и ауру ее тотема на расстоянии 4м. В течение следующих 30 сек. этот радиус постепенно увеличивается, пока не достигнет 24 м. Порча действует, пока не уничтожен соответствующий тотем.",
+      },
+      statusEffect: ['Exposed'],
+      falseauthorComment: {
+        en: "\"And the beast became faster and more powerful as if The Entity's shadowy whips were lashing at its back.\"",
+        ru: "«Тварь стала быстрее и сильнее, словно подстегнутая туманным хлыстом Сущности.»"
+      }
+      
+    },
+
+
+    {
+      id: 117,
+      icon: "killers/default/scourge.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Scourge Hook: Monstrous Shrine",
+        ru: "Секущий крюк: Чудовищный храм",
+      },
+      falseDescription: {
+        en: "Your fervent care of the hooks found in the basement have aroused The Entity's interest.",
+        ru: "Ваша страсть к крюкам в подвале заинтересовала Сущность.",
+      },
+      description: {
+        en: "At the start of the trial, 4 random hooks are changed into scourge hooks. You see their auras in white. Scourge Hooks grant 20% faster Entity progression if the Killer is not within 24 meters. Basement hooks count as Scourge Hooks.",
+        ru: "В начале матча до 4 случайных крюков становятся секущими. Их ауры выделены белым цветом. Сущность поглощает жертву с секущих крюков на 20% быстрее, если убийца находится не в радиусе 24 м. Крюки в подвале считаются секущими.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "\"Then you will know that there is no escape. When hanging in the depths, you face the dark one.\"",
+        ru: "«И тогда ты поймешь, что сбежать не получится. Там, на крюке, ты лицом к лицу с самой тьмой.»"
+      }
+      
+    },
+
+    {
+      id: 118,
+      icon: "killers/default/shattered.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Shattered Hope",
+        ru: "Разбитые надежды",
+      },
+      falseDescription: {
+        en: "To capture your prey, you must first extinguish their hope.",
+        ru: "Чтобы поймать добычу, нужно сначала уничтожить ее надежды.",
+      },
+      description: {
+        en: "Whenever you snuff a Boon Totem, the totem is destroyed instead. When you destroy a Boon Totem this way, the auras of all Survivors inside the Boon Totem range are revealed to you for 8 seconds.",
+        ru: "Когда вы тушите дарующий тотем, тотем вместо этого уничтожается. Когда вы уничтожаете дарующий тотем таким способом, ауры всех выживших в пределах радиуса действия тотема показываются вам в течение 8 сек.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "\"Nothing is permanent here. Nothing except our endless perdition.\" -Unknown, Notebook",
+        ru: "«Здесь нет ничего стабильного. Ничего, кроме наших вечных страданий» - Неизвестный, блокнот"
+      }
+      
+    },
+
+    {
+      id: 119,
+      icon: "killers/default/sloppy.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Sloppy Butcher",
+        ru: "Небрежный мясник",
+      },
+      falseDescription: {
+        en: "You know where to hit to make them bleed.",
+        ru: "Вы знаете, как заставить их истекать кровью.",
+      },
+      description: {
+        en: "Wounds inflicted by basic attacks cause Survivors to suffer from the Hemorrhage and Mangled status effects for 90 seconds. Increases the rate at which healing progression is lost from Hemorrhage by 25%.",
+        ru: "Нанесенные базовой атакой раны накладывают на выживших эффекты \"Кровотечение\" и \"Травма\" на 90 сек. Ускоряет потерю прогресса лечения из-за \"Кровотечения\" на 25%",
+      },
+      statusEffect: ['Hemorrhage', 'Mangled'],
+      falseauthorComment: {
+        en: "\"It's in its sadistic nature. There is no swift kill as it delights in the obscene spectacle of our agonizing suffering.\"",
+        ru: "«Такова его садистская природа. Оно никогда не убивает быстро, наслаждаясь отвратительным зрелищем страданий и агонии.»"
+      }
+      
+    },
+
+    {
+      id: 120,
+      icon: "killers/default/spies.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Spies From The Shadows",
+        ru: "Сумеречные шпионы",
+      },
+      falseDescription: {
+        en: "The crows found in the world can communicate with you directly.",
+        ru: "Вороны могут общаться с вами напрямую.",
+      },
+      description: {
+        en: "100% of the time, cawing crows give you a visual cue when you are within a 36 meter range. Spies From The Shadows has a cooldown of 5 seconds.",
+        ru: "В 100% случаев каркающие вороны будут давать вам визуальную подсказку, когда вы находитесь в радиусе 36 м. \"Сумеречным шпионам\" требуется 5 сек. на перезарядку.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "\"In the shadows they torment, scarring our minds with each scream.\"",
+        ru: "«Они терзают нас в ночи, с каждым криком оставляя шрамы в наших головах»"
+      }
+      
+    },
+
+    {
+      id: 121,
+      icon: "killers/default/thrill.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Hex: Thrill of the Hunt",
+        ru: "Порча: охотничий азарт",
+      },
+      falseDescription: {
+        en: "A Hex rooting its power on hope. The false hope of Survivors fills you with excitement and strengthens your Totems.",
+        ru: "Порча черпает силу от людской надежды. Ложная надежда выживших будоражит вас и усиливает ваши тотемы.",
+      },
+      description: {
+        en: "For each Dull and Hex Totem remaining on the map gain a token. Gain 10% more Bloodpoints for actions in the Hunter category for each token. Survivors cleansing and blessing speed is reduced by 10% for each token. The Hex effects persist as long as the related Hex Totem is standing.",
+        ru: "Вы получаете жетон за каждый тусклый и проклятый тотем на карте. За каждый жетон вы получаете на 10% больше очков крови за действия в категории \"Охота\".  Действия выживших по очищению и благословению замедляются на 10% за каждый жетон. Вы получите уведомление, когда выживший начнет очищать тотем порчи.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "",
+        ru: ""
+      }
+      
+    },
+
+    {
+      id: 122,
+      icon: "killers/default/unrelenting.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Unrelenting",
+        ru: "Безжалостный",
+      },
+      falseDescription: {
+        en: "You recuperate faster from missed attacks made with your main weapon.",
+        ru: "Вы быстрее оправляетесь после неудачной атаки основным оружием.",
+      },
+      description: {
+        en: "The cooldown after missed basic attacks is reduced by 30%.",
+        ru: "Время перезарядки после базовой атаки мимо цели снижается на 30%.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "",
+        ru: ""
+      }
+      
+    },
+
+    {
+      id: 123,
+      icon: "killers/default/whispers.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Whispers",
+        ru: "Шепоты",
+      },
+      falseDescription: {
+        en: "You have a rudimentary understanding of The Entity's voice.",
+        ru: "Вы начинаете немного понимать, о чем говорит Сущность.",
+      },
+      description: {
+        en: "Sporadically hear The Entity's whisper when standing within a 48/40/32 meter range of a Survivor.",
+        ru: "Вы периодически слышите ее шепот, находясь в радиусе 32 м. от Выжившего.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "\"It's unclear as to the motivations of The Fog, but it is undeniable that it often takes the beast's side.\" -Notebook",
+        ru: "«Мотив тумана неясен, но безусловно он зачастую принимает сторону зверя.» — из блокнота"
+      }
+      
+    },
+
+    {
+      id: 124,
+      icon: "killers/default/grasp.png",
+      author: {
+        en: "",
+        ru: "",
+      },
+      name: {
+        en: "Iron Grasp",
+        ru: "Мертвая хватка",
+      },
+      falseDescription: {
+        en: "Your powerful hold on the Survivors causes escapes to be nearly impossible.",
+        ru: "Железная хватка, с которой вы держите выживших, практически лишает их возможности побега.",
+      },
+      description: {
+        en: "Effects of Survivor struggling are reduced by 75%. Time to struggle out of your grasp is increased by 12%.",
+        ru: "Эффективность сопротивления выживших понижена на 75%. Время высвобождения из вашей хватки увеличивается на 12%.",
+      },
+      statusEffect: [''],
+      falseauthorComment: {
+        en: "",
+        ru: ""
+      }
+      
+    },
+    
+
   ];
   

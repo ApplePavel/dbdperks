@@ -30,7 +30,7 @@ const PerkGrid = ({ perks }) => {
           key={perk.id}
           className={styles.perkitem}
           onMouseEnter={(e) => handleMouseEnter(e, perk)}
-          // onMouseLeave={handleMouseLeave}
+          onMouseLeave={handleMouseLeave}
         >
           <img src={perk.icon} alt={perk.name[language]} />
         </div>
@@ -45,7 +45,7 @@ const PerkGrid = ({ perks }) => {
             <h3 className={styles.perkName}>{hoveredPerk.name[language]}</h3>
             <p className={styles.perkAuthor}>
               {language === 'en' 
-                ? `Very rare ${hoveredPerk.author[language]} perk` 
+                ? `Very rare ${hoveredPerk.author[language]} perk`
                 : `Очень редк. - ${hoveredPerk.author[language]} - навык`}
             </p>
 
