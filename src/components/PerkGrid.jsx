@@ -1,26 +1,18 @@
 import React, { useState } from 'react';
 import styles from '../styles/PerkGrid.module.css';
 import { defaultData } from '../data/defaultData';
-import { useLanguage } from './LanguageProvider'; // Import the LanguageProvider
+import { useLanguage } from './LanguageProvider'; 
 
 const PerkGrid = ({ perks }) => {
-  const { language } = useLanguage(); // Use the detected language
-  const [hoveredPerk, setHoveredPerk] = useState(null);
-  const [position, setPosition] = useState({ top: 0, left: 0 });
+  const { language } = useLanguage();
+  const [hoveredPerkId, setHoveredPerkId] = useState(null);
 
-  const handleMouseEnter = (event, perk) => {
-    const rect = event.target.getBoundingClientRect();
-
-    setPosition({
-      top: rect.top - 130,
-      left: rect.left - 300,
-    });
-
-    setHoveredPerk(perk);
+  const handleMouseEnter = (perk) => {
+    setHoveredPerkId(perk.id);
   };
 
   const handleMouseLeave = () => {
-    setHoveredPerk(null);
+    setHoveredPerkId(null);
   };
 
   return (
@@ -29,45 +21,46 @@ const PerkGrid = ({ perks }) => {
         <div
           key={perk.id}
           className={styles.perkitem}
-          onMouseEnter={(e) => handleMouseEnter(e, perk)}
+          onMouseEnter={() => handleMouseEnter(perk)}
           onMouseLeave={handleMouseLeave}
+          style={{ position: 'relative' }}
         >
-          <img src={perk.icon} alt={perk.name[language]} />
+          <div><img src={perk.icon} alt={perk.name[language]} /></div>
+
+          {hoveredPerkId === perk.id && (
+            <div className={styles.perkTooltip}>
+              <div className={styles.perkHeader}>
+                <h3 className={styles.perkName}>{perk.name[language]}</h3>
+                <p className={styles.perkAuthor}>
+                  {perk.author && perk.author[language] 
+                    ? language === 'en' 
+                      ? `Very rare ${perk.author[language]} perk`
+                      : `Очень редкое - ${perk.author[language]} - навык`
+                    : language === 'en' 
+                      ? `Very rare perk`
+                      : `Очень редк. - навык`}
+                </p>
+              </div>
+              <div className={styles.perkBottom}>
+                {perk.falseDescription?.[language] && (
+                  <p className={styles.perkFalseDescription}>{perk.falseDescription[language]}</p>
+                )}
+                <p className={styles.perkDescription}>{perk.description[language]}</p>
+                {perk.statusEffect.length > 0 && (
+                  <div className={styles.statusEffects}>
+                    {perk.statusEffect.map(effect => (
+                      <p key={effect} className={styles.statusEffect}>
+                        {defaultData[effect]?.[language]}
+                      </p>
+                    ))}
+                  </div>
+                )}
+                <p className={styles.perkComment}>{perk.falseauthorComment[language]}</p>
+              </div>
+            </div>
+          )}
         </div>
       ))}
-
-      {hoveredPerk && (
-        <div
-          className={styles.perkTooltip}
-          style={{ top: position.top, left: position.left }}
-        >
-          <div className={styles.perkHeader}>
-            <h3 className={styles.perkName}>{hoveredPerk.name[language]}</h3>
-            <p className={styles.perkAuthor}>
-              {language === 'en' 
-                ? `Very rare ${hoveredPerk.author[language]} perk`
-                : `Очень редк. - ${hoveredPerk.author[language]} - навык`}
-            </p>
-
-          </div>
-          <div className={styles.perkBottom}>
-            {hoveredPerk.falseDescription?.[language] && (
-              <p className={styles.perkFalseDescription}>{hoveredPerk.falseDescription[language]}</p>
-            )}
-            <p className={styles.perkDescription}>{hoveredPerk.description[language]}</p>
-            {hoveredPerk.statusEffect.length > 0 && (
-              <div className={styles.statusEffects}>
-                {hoveredPerk.statusEffect.map(effect => (
-                  <p key={effect} className={styles.statusEffect}>
-                    {defaultData[effect]?.[language]}
-                  </p>
-                ))}
-              </div>
-            )}
-            <p className={styles.perkComment}>{hoveredPerk.falseauthorComment[language]}</p>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

@@ -1351,7 +1351,7 @@ export const perksData = [
       },
       description: {
         en: "While repairing generators, Survivors are afflicted by the Blindness and Exhausted status effect. Any existing Exhausted status effect timers are paused while the Survivor is repairing a generator. After ending the repair action, the Survivor is afflicted by the Blindness and Exhausted status effect for 5 seconds.",
-        ru: "Во время починки генераторов на выживших действуют эффекты \"Слепота\" и \"Усталость\". Все текущие таймеры усталости приостанавливаются на время починки генератора. Завершив починку, выживший снова слепнет и устает на {сек.}.",
+        ru: "Во время починки генераторов на выживших действуют эффекты \"Слепота\" и \"Усталость\". Все текущие таймеры усталости приостанавливаются на время починки генератора. Завершив починку, выживший снова слепнет и устает на 5 сек..",
       },
       statusEffect: ['Blindness', 'Exhausted'],
       falseauthorComment: {

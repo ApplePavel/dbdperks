@@ -1,15 +1,19 @@
-.search {
-
+.input{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/searchbar.png");
+    width: 290px;
+    height: 52px;
+    font-size: 24px;
+    color: #767879;
+    padding-left: 15px;
+    font-family: 'roboto';
+    border: none;
 }
 
-.input {
 
-}
-
-.input::placeholder {
-
-}
-
-.search::after {
-
+  
+.input:focus {
+    caret-color: #767879;
+    outline: none;
 }

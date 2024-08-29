@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>DBDPerk</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/image.png" />
       </Head>
       <LanguageProvider> 
         <main className={roboto.className}>
