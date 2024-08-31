@@ -2,12 +2,17 @@ import React, { useState } from 'react';
 import PaginatedPerkGrid from './PaginatedPerkGrid';
 import { perksData } from '../data/perksData';
 import styles from '../styles/Search.module.css';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Search = () => {
   const [query, setQuery] = useState("");
 
   const handleSearch = (event) => {
     setQuery(event.target.value);
+  };
+
+  const handleClear = () => {
+    setQuery('');
   };
 
   const normalizeText = (text) => text.toLowerCase().trim();
@@ -36,18 +41,23 @@ const Search = () => {
 
   return (
     <div className={styles.queryPage}>
-          <div className={styles.search}>
-          
-            <input
-              className={styles.input}
-              type="text"
-              placeholder="SEARCH"
-              value={query}
-              onChange={handleSearch}
-            />
-            
-          </div>
-    <PaginatedPerkGrid perks={filteredPerks} perksPerPage={15} />
+      <div className={styles.search}>
+        <LanguageSwitcher />
+        <div className={styles.inputWrapper}>
+          <input
+            className={styles.input}
+            type="text"
+            placeholder="SEARCH"
+            value={query}
+            onChange={handleSearch}
+          />
+          <div
+            className={`${styles.icon} ${query ? styles.clearIcon : styles.searchIcon}`}
+            onClick={query ? handleClear : undefined}
+          />
+        </div>
+      </div>
+      <PaginatedPerkGrid perks={filteredPerks} perksPerPage={15} />
     </div>
   );
 };

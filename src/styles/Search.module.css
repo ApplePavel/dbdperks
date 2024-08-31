@@ -12,8 +12,40 @@
 }
 
 
+.inputWrapper {
+    position: relative;
+    display: inline-block;
+  }
+
   
 .input:focus {
     caret-color: #767879;
     outline: none;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 28px; 
+    height: 28px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+  }
+
+.searchIcon {
+    background-image: url('/search.svg'); 
+  }
+  
+  .clearIcon {
+    background-image: url('/close.svg'); 
+  }
+
+
+.search{
+    display: flex;
+    justify-content: space-between;
 }

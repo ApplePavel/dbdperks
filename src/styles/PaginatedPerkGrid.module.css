@@ -32,17 +32,30 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0) 100%);
+  padding: 10px;
+  border-radius: 10px;
 }
+
+
 
 .pageNumber {
   margin: 0 5px;
   padding: 5px 10px;
   cursor: pointer;
+  background: linear-gradient(135deg, rgb(36, 31, 31), #0f1011);
+  color: #d1d1d1;
+  border: none;
+  border-radius: 2px;
+  outline: none;
 }
+
 
 .pageNumber.active {
   font-weight: bold;
-  text-decoration: underline;
+  background: linear-gradient(135deg, rgb(88, 80, 80), #2C2F35);
+  color: white;
 }
 
 .buttonLeft, .buttonRight {
