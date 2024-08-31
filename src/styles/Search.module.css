@@ -2,9 +2,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("/searchbar.png");
-    width: 290px;
-    height: 52px;
-    font-size: 24px;
+    width: 240px;
+    height: 44px;
+    font-size: 20px;
     color: #767879;
     padding-left: 15px;
     font-family: 'roboto';
@@ -28,8 +28,8 @@
     top: 50%;
     right: 15px;
     transform: translateY(-50%);
-    width: 28px; 
-    height: 28px; 
+    width: 24px; 
+    height: 24px; 
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;

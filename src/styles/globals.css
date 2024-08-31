@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0; 
     color: white;  
-    font-family: Arial, sans-serif;
+    font-family: 'roboto';
     background-image: url('/dbdbackground.webp');
     background-size: cover;
     width: 100%;
