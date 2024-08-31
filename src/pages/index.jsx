@@ -1,14 +1,15 @@
+// pages/Home.js
 import React from 'react';
 import styles from '../styles/Home.module.css';
 import Search from '../components/Search';
-// import PlayerBanner from '../components/PlayerBanner';
+import Banner from '../components/Banner';
 
 const Home = () => {
   return (
-
-        <div className={styles.wrapper}>
-              {/* <Search></Search> */}
-        </div>
+    <div className={styles.wrapper}>
+      <Banner />
+      <Search />
+    </div>
   );
 };
 

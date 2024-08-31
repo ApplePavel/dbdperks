@@ -40,7 +40,6 @@ const PaginatedPerkGrid = ({ perks, perksPerPage = 15 }) => {
     return pageNumbers;
   };
 
-  // Split the perks into pages
   const pages = [];
   for (let i = 0; i < totalPages; i++) {
     const start = i * perksPerPage;

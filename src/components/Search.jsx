@@ -1,8 +1,9 @@
+// components/Search.js
 import React, { useState } from 'react';
 import PaginatedPerkGrid from './PaginatedPerkGrid';
 import { perksData } from '../data/perksData';
+import SearchBar from './SearchBar';
 import styles from '../styles/Search.module.css';
-import LanguageSwitcher from './LanguageSwitcher';
 
 const Search = () => {
   const [query, setQuery] = useState("");
@@ -41,22 +42,7 @@ const Search = () => {
 
   return (
     <div className={styles.queryPage}>
-      <div className={styles.search}>
-        <LanguageSwitcher />
-        <div className={styles.inputWrapper}>
-          <input
-            className={styles.input}
-            type="text"
-            placeholder="SEARCH"
-            value={query}
-            onChange={handleSearch}
-          />
-          <div
-            className={`${styles.icon} ${query ? styles.clearIcon : styles.searchIcon}`}
-            onClick={query ? handleClear : undefined}
-          />
-        </div>
-      </div>
+      <SearchBar query={query} onSearch={handleSearch} onClear={handleClear} />
       <PaginatedPerkGrid perks={filteredPerks} perksPerPage={15} />
     </div>
   );
