@@ -1,0 +1,46 @@
+.left_menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 100vh;
+    background-color: rgba(41, 36, 39, 0.637);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 3px solid black;
+}
+
+
+.menu_profile {
+    margin-top: 40px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/leftmenu/loadout.png");
+    width: 70px;
+    height: 70px;
+    box-shadow: -5px 5px 10px rgba(122, 129, 145, 0.25); 
+}
+
+.menu_perks {
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/leftmenu/killer.png");
+    box-shadow: -5px 5px 10px rgba(122, 129, 145, 0.25); 
+}
+
+.menu_switch {
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/leftmenu/survivor.png");
+    box-shadow: -5px 5px 10px rgba(122, 129, 145, 0.25); 
+}
