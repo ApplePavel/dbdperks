@@ -1,0 +1,67 @@
+.bannerContainer {
+    padding: 8px;
+    background-image: url('/banner/crimson.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+  }
+
+  .bannerName {
+    padding: 5px 20px;
+    width: 400px;
+    background: linear-gradient(to left, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 80%);
+  }
+  
+
+
+  .banner{
+    margin: 15px 80px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  
+
+  
+  .currencyContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    font-size: 18px;
+  }
+  
+  .currencyItem {
+    display: flex;
+    align-items: center;
+    gap: 4px; 
+  }
+  
+  .currencyIcon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .currencyAmount {
+    color: white;
+  }
+  
+  .whisperersContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+  }
+  
+  .whisperersIcon {
+    width: 80x;
+    height: 80px; 
+  }
+  
+  .whisperersCreator {
+    display: flex;
+    justify-content: flex-end;
+
+    color: #D3C18B;
+    font-style: italic;
+  }

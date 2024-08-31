@@ -6,9 +6,12 @@ import Banner from '../components/Banner';
 
 const Home = () => {
   return (
-    <div className={styles.wrapper}>
+    <div>
       <Banner />
-      <Search />
+      <div className={styles.wrapper}>
+        
+        <Search />
+      </div>
     </div>
   );
 };
