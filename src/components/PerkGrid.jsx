@@ -25,7 +25,7 @@ const PerkGrid = ({ perks }) => {
           onMouseLeave={handleMouseLeave}
           style={{ position: 'relative' }}
         >
-          <div><img src={perk.icon} alt={perk.name[language]} /></div>
+          <img src={perk.icon} alt={perk.name[language]} />
 
           {hoveredPerkId === perk.id && (
             <div className={styles.perkTooltip}>

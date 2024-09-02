@@ -2,7 +2,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 150px;
+    width: 85px;
     height: 100vh;
     background-color: rgba(32, 30, 31, 0.829);
     display: flex;
@@ -16,7 +16,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     content: "";
-    display: block;
     height: 100%;
     left: 0;
     mix-blend-mode: multiply;
@@ -25,7 +24,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    background-image: url("/leftmenu/texture.jpg");
+    background-image: url("/texture.jpg");
  
 }
 

@@ -10,8 +10,7 @@ const Home = () => {
     <div>
       <LeftMenu/>
       <Banner />
-      <div className={styles.wrapper}>
-        
+      <div className={styles.searchWrapper}>
         <Search />
       </div>
     </div>

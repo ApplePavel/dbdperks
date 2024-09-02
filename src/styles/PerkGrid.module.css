@@ -1,34 +1,53 @@
 
 .perkitem img {
-  height: 150px;
+  height: 125px;
   width: auto;
   pointer-events: none;
   -webkit-user-drag: none;
   -moz-user-select: none;    
   -webkit-user-select: none; 
   -ms-user-select: none;     
-  user-select: none;        
+  user-select: none;  
+
 }
-
-
+.perkitem::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 11px;
+  width: 76px;
+  height: 76px;
+  background-image: url(/texture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  transform: rotate(45deg);
+  z-index: -1;
+  mix-blend-mode: multiply;
+}
 
 .perkgrid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0 40px;
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 140px);
+  grid-template-rows: repeat(3, 105px);
+  justify-content: center;
+  margin-right: 60px;
 }
 
-.perkitem {
-  position: relative;
+.perkitem:nth-child(n+6):nth-child(-n+10) {
+  left: 60px;
 }
+
+
+
+
 
 .perkTooltip {
   position: absolute;
   border-radius: 1px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   top: 100%;
-  z-index: 10;
+  z-index: 10000;
 }
 
 .perkTooltip::after {

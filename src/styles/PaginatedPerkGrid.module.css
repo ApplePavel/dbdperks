@@ -5,13 +5,9 @@
 }
 
 .perkContainer {
-  width: 100%;
-  height: 400px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 70px 0;
-  position: relative;
+  align-items: center;
 }
 
 
@@ -59,9 +55,6 @@
 }
 
 .buttonLeft, .buttonRight {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%); 
   border: none;
   background: none;
   cursor: pointer;
@@ -77,16 +70,15 @@
 
 .buttonLeft {
   background-image: url("/LeftArrow.png");
-  left: -150px;
+ left: 0;
 }
 
 .buttonRight {
   background-image: url("/RightArrow.png");
-  right: -150px; 
 }
 
 .buttonLeft:hover, .buttonRight:hover {
-  transform: translateY(-50%) scale(1.1); 
+  transform: translateY(-5px); 
   
 }
 
